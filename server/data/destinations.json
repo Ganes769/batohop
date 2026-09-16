@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kathmandu",
+    "index": "01",
+    "name": "Kathmandu",
+    "shortName": "Kathmandu",
+    "country": "Nepal",
+    "region": "Bagmati",
+    "nights": 2,
+    "season": "Oct — Nov · Mar — Apr",
+    "price": "From NPR 1,000",
+    "tag": "Valley start",
+    "kicker": "Temples, bazaars, and the first road out of the valley",
+    "summary": "The hop begins in the Kathmandu Valley — Boudha, Durbar squares, and the highway or runway west. Most Nepal journeys still start here, even if the night is short.",
+    "details": [
+      "Boudhanath kora at dusk before an early bus",
+      "Thamel gear run for ABC if you are continuing up",
+      "Hotel pickup for tourist bus or TIA domestic flight"
+    ],
+    "image": "/images/kathmandu.jpg",
+    "portrait": "/images/kathmandu-portrait.jpg",
+    "pexels": "https://www.pexels.com/photo/aerial-view-of-bustling-kathmandu-durbar-square-36850974/",
+    "aliases": [
+      "ktm",
+      "kathmandu",
+      "kathmandu valley",
+      "nepal kathmandu",
+      "काठमाडौं"
+    ]
+  },
+  {
+    "id": "pokhara",
+    "index": "02",
+    "name": "Pokhara",
+    "shortName": "Pokhara",
+    "country": "Nepal",
+    "region": "Gandaki · Lakeside",
+    "nights": 3,
+    "season": "Oct — Nov · Feb — Apr",
+    "price": "From NPR 1,000",
+    "tag": "Lake & fishtail",
+    "kicker": "Phewa light, Sarangkot dawn, gateway to Annapurna",
+    "summary": "Pokhara is the pause between highway and Himalaya. Lakeside boats, paragliding, and the last hot shower before the ABC trail. Most hops west end — or begin again — here.",
+    "details": [
+      "Sunrise at Sarangkot over Machhapuchhre",
+      "Phewa Lake boat to the Tal Barahi shrine",
+      "Paragliding or a quiet walk to the Peace Pagoda"
+    ],
+    "image": "/images/pokhara-bright.jpg",
+    "portrait": "/images/pokhara-portrait.jpg",
+    "pexels": "https://www.pexels.com/photo/sunset-over-phewa-lake-in-pokhara-nepal-36236710/",
+    "aliases": [
+      "pkr",
+      "pokhara",
+      "lakeside",
+      "fewa",
+      "phewa",
+      "पोखरा"
+    ]
+  },
+  {
+    "id": "abc",
+    "index": "03",
+    "name": "Annapurna Base Camp",
+    "shortName": "ABC Camp",
+    "country": "Nepal",
+    "region": "Annapurna Sanctuary",
+    "nights": 7,
+    "season": "Oct — Nov · Mar — Apr",
+    "price": "From NPR 8,000 / day",
+    "tag": "Sanctuary",
+    "kicker": "Stone steps, hot springs, and a 4,130 m amphitheatre of ice",
+    "summary": "ABC is not a road hop — it is a walking hop. From Nayapul or Ghandruk you climb through Gurung villages, bamboo, and the sanctuary to a cirque of Annapurna I, Hiunchuli, and Fishtail.",
+    "details": [
+      "Ghandruk village and Gurung Museum",
+      "Jhinu Danda hot springs after a long descent",
+      "Sunrise at ABC with Annapurna South in the bowl"
+    ],
+    "image": "/images/abc.jpg",
+    "portrait": "/images/abc-portrait.jpg",
+    "pexels": "https://www.pexels.com/photo/stunning-view-of-machapuchare-peak-in-nepal-30206281/",
+    "aliases": [
+      "abc",
+      "abc camp",
+      "annapurna",
+      "annapurna base camp",
+      "base camp",
+      "annapurna sanctuary",
+      "mbc"
+    ]
+  },
+  {
+    "id": "lumbini",
+    "index": "04",
+    "name": "Lumbini",
+    "shortName": "Lumbini",
+    "country": "Nepal",
+    "region": "Rupandehi · Terai",
+    "nights": 2,
+    "season": "Oct — Mar · Nov — Feb pilgrimage",
+    "price": "From NPR 1,200",
+    "tag": "Birthplace of Buddha",
+    "kicker": "Maya Devi Temple, monasteries, and the quiet Terai plain",
+    "summary": "Lumbini is where Siddhartha Gautama was born — a UNESCO site of temples, monasteries from twenty nations, and the Maya Devi garden. Most hops arrive from Kathmandu by highway through Chitwan country or a short flight to Bhairahawa.",
+    "details": [
+      "Maya Devi Temple and the Ashoka pillar",
+      "Monastic zone walk — Thai, Chinese, Korean, and German temples",
+      "Crane sanctuary and cycling the flat Terai lanes"
+    ],
+    "image": "/images/lumbini.jpg",
+    "portrait": "/images/lumbini-portrait.jpg",
+    "pexels": "https://www.pexels.com/photo/2034335/",
+    "aliases": [
+      "lumbini",
+      "birthplace of buddha",
+      "buddha birthplace",
+      "mayadevi",
+      "bwa",
+      "bhairahawa"
+    ]
+  }
+]
