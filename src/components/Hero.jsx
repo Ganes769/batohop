@@ -39,9 +39,10 @@ export default function Hero({ destinations = [], hops = [] }) {
           </h1>
           <p className="lede">
             Baatohop is a travel guide for real Nepal routes — Kathmandu,
-            Pokhara, Chitwan, ABC, and Lumbini. Pick a hop, compare bus, jeep,
-            flight, or trek, convert USD or GBP to NPR, and read every stop with
-            cool facts and sample prices.
+            Pokhara, Chitwan, Lumbini, Everest and Annapurna base camps, Poon
+            Hill, Mustang, Langtang, and Nagarkot. Pick a hop, compare bus,
+            jeep, flight, or trek, convert USD or GBP to NPR, and read every
+            stop with cool facts and sample prices.
           </p>
           <NepaliSlogans />
           <div className="hero-actions">

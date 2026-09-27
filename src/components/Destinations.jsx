@@ -7,8 +7,9 @@ export default function Destinations({ destinations = [], hops = [], loading }) 
         <p className="section-label">Destinations</p>
         <h2>Valley, lakes, jungle, mountains &amp; plains</h2>
         <p className="section-copy">
-          Five places in Nepal. Open a hop between them for the full route,
-          stops, cool facts, and sample fares.
+          Ten places in Nepal — from Bhaktapur’s valley rim to Everest Base
+          Camp. Open a hop between them for the full route, stops, cool facts,
+          and sample fares.
         </p>
       </div>
       {loading ? <p className="status-copy">Loading places…</p> : null}
