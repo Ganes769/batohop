@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
+import PrayerFlags from './PrayerFlags'
 
 export default function Footer() {
   return (
     <footer className="footer">
+      <PrayerFlags variant="ribbon" className="footer-prayer-flags" />
       <Link className="wordmark" to="/" aria-label="Baatohop home">
         <span className="wordmark-mark" aria-hidden="true">
           B

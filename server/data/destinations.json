@@ -118,5 +118,188 @@
       "bwa",
       "bhairahawa"
     ]
+  },
+  {
+    "id": "chitwan",
+    "index": "05",
+    "name": "Chitwan National Park",
+    "shortName": "Chitwan",
+    "country": "Nepal",
+    "region": "Bagmati · Sauraha",
+    "nights": 2,
+    "season": "Oct — Mar · avoid monsoon floods",
+    "price": "From NPR 800",
+    "tag": "Rhino & jungle",
+    "kicker": "Jeep safari, canoe, and Tharu villages on the Terai",
+    "summary": "Chitwan is Nepal’s classic wildlife stop — one-horned rhinos, crocodiles, and if you are lucky, a Bengal tiger from a jeep or canoe. Most hops arrive from Kathmandu via Mugling and Narayangarh; Sauraha is the main lodge base on the Rapti river.",
+    "details": [
+      "Half-day jeep safari in Chitwan National Park",
+      "Rapti river canoe at dawn for birds and gharial",
+      "Tharu cultural dance and village walk in the evening"
+    ],
+    "image": "/images/chitwan.jpg",
+    "portrait": "/images/chitwan-portrait.jpg",
+    "pexels": "https://www.pexels.com/photo/rhinoceros-in-the-wild-631317/",
+    "aliases": [
+      "chitwan",
+      "sauraha",
+      "chitwan national park",
+      "bharatpur safari",
+      "rhino safari"
+    ]
+  },
+  {
+    "id": "everest",
+    "index": "06",
+    "name": "Everest Base Camp",
+    "shortName": "Everest BC",
+    "country": "Nepal",
+    "region": "Solukhumbu · Khumbu",
+    "nights": 12,
+    "season": "Oct — Nov · Mar — May",
+    "price": "From NPR 10,000 / day",
+    "tag": "Roof of the world",
+    "kicker": "Lukla runway, Sherpa villages, and the Khumbu glacier at 5,364 m",
+    "summary": "The most famous walk on Earth. Fly into Lukla, climb through Namche and Tengboche, and stand under Everest, Nuptse, and Lhotse at base camp — then watch sunrise from Kala Patthar. Twelve to fourteen days, two acclimatisation stops, and no road anywhere.",
+    "details": [
+      "Namche Bazaar Saturday market and the Everest View Hotel terrace",
+      "Tengboche monastery with Ama Dablam in the window",
+      "Kala Patthar sunrise over Everest, Nuptse, and Pumori"
+    ],
+    "image": "/images/everest.jpg",
+    "portrait": "/images/everest-portrait.jpg",
+    "pexels": "https://commons.wikimedia.org/wiki/File:Everest,_Nuptse,_Khumbu_Glacier,_Nepal,_Himalayas.jpg",
+    "aliases": [
+      "ebc",
+      "everest",
+      "everest base camp",
+      "sagarmatha",
+      "lukla",
+      "namche",
+      "khumbu",
+      "kala patthar",
+      "सगरमाथा"
+    ]
+  },
+  {
+    "id": "poonhill",
+    "index": "07",
+    "name": "Poon Hill",
+    "shortName": "Poon Hill",
+    "country": "Nepal",
+    "region": "Annapurna · Ghorepani",
+    "nights": 4,
+    "season": "Oct — Nov · Mar — Apr rhododendrons",
+    "price": "From NPR 5,000 / day",
+    "tag": "Sunrise ridge",
+    "kicker": "Three thousand stone steps, rhododendron forest, and a 3,210 m sunrise",
+    "summary": "Nepal’s most popular short trek — three to five days from Pokhara through Ulleri’s stone stairs and Ghorepani’s rhododendron forest to a dawn panorama of Dhaulagiri, Annapurna I, and Machhapuchhre. No altitude worries, real villages, and a loop back through Ghandruk.",
+    "details": [
+      "Sunrise from the Poon Hill view tower over Dhaulagiri and Annapurna",
+      "Ghorepani rhododendron forest in full March–April bloom",
+      "Gurung and Magar villages — Ulleri, Ghandruk, Tadapani"
+    ],
+    "image": "/images/poonhill.jpg",
+    "portrait": "/images/poonhill-portrait.jpg",
+    "pexels": "https://commons.wikimedia.org/wiki/File:Mount_Dhaulagiri_From_Poon_Hill.jpg",
+    "aliases": [
+      "poon hill",
+      "poonhill",
+      "ghorepani",
+      "ghorepani poon hill",
+      "ulleri",
+      "पुन हिल"
+    ]
+  },
+  {
+    "id": "mustang",
+    "index": "08",
+    "name": "Jomsom & Muktinath",
+    "shortName": "Mustang",
+    "country": "Nepal",
+    "region": "Mustang · Kali Gandaki",
+    "nights": 4,
+    "season": "Oct — Nov · Mar — May · walkable in monsoon",
+    "price": "From NPR 1,500",
+    "tag": "Desert behind the Himalaya",
+    "kicker": "The world’s deepest gorge, apple orchards, and a temple at 3,710 m",
+    "summary": "Fly twenty minutes from Pokhara or drive a day up the Kali Gandaki gorge into a high-altitude desert that looks like Tibet. Jomsom is the hub, Marpha the apple village, Kagbeni the gate to Upper Mustang, and Muktinath the temple both Hindus and Buddhists climb to.",
+    "details": [
+      "Muktinath’s 108 water spouts and the eternal flame",
+      "Kagbeni’s mud-walled alleys at the edge of Upper Mustang",
+      "Marpha apple brandy and whitewashed Thakali houses"
+    ],
+    "image": "/images/mustang.jpg",
+    "portrait": "/images/mustang-portrait.jpg",
+    "pexels": "https://commons.wikimedia.org/wiki/Category:Mustang_District",
+    "aliases": [
+      "mustang",
+      "lower mustang",
+      "jomsom",
+      "muktinath",
+      "kagbeni",
+      "marpha",
+      "मुक्तिनाथ"
+    ]
+  },
+  {
+    "id": "langtang",
+    "index": "09",
+    "name": "Langtang Valley",
+    "shortName": "Langtang",
+    "country": "Nepal",
+    "region": "Rasuwa · Langtang National Park",
+    "nights": 8,
+    "season": "Oct — Nov · Mar — May",
+    "price": "From NPR 6,000 / day",
+    "tag": "Valley of glaciers",
+    "kicker": "The closest Himalayan valley to Kathmandu — Tamang villages, yak cheese, and 7,000 m walls",
+    "summary": "One long bus day north of Kathmandu, then three walking days up a forested gorge to Kyanjin Gompa under Langtang Lirung. Fewer trekkers than Everest or Annapurna, a rebuilt village with a story, and two ridge climbs above 4,700 m that need no permit beyond the park fee.",
+    "details": [
+      "Kyanjin Gompa monastery and the 1955 Swiss-built cheese factory",
+      "Tserko Ri or Kyanjin Ri for glaciers and Langtang Lirung",
+      "Langtang village memorial and Tamang tea houses"
+    ],
+    "image": "/images/langtang.jpg",
+    "portrait": "/images/langtang-portrait.jpg",
+    "pexels": "https://commons.wikimedia.org/wiki/File:Mt._Gangchempo_6387_m-_Kyanjin_Gompa_Lantang_Valley-IMG_2731.jpg",
+    "aliases": [
+      "langtang",
+      "langtang valley",
+      "kyanjin",
+      "kyanjin gompa",
+      "syabrubesi",
+      "rasuwa",
+      "लाङटाङ"
+    ]
+  },
+  {
+    "id": "nagarkot",
+    "index": "10",
+    "name": "Nagarkot",
+    "shortName": "Nagarkot",
+    "country": "Nepal",
+    "region": "Bhaktapur · Valley rim",
+    "nights": 1,
+    "season": "Oct — Dec · Feb — Apr",
+    "price": "From NPR 100",
+    "tag": "Sunrise over the valley",
+    "kicker": "Bhaktapur’s squares on the way up, the Himalaya at dawn on the ridge",
+    "summary": "The easiest famous hop in Nepal — an afternoon in Bhaktapur’s medieval Durbar Square, a night at 2,175 m on the valley rim, and a sunrise that stretches from Langtang to a distant tip of Everest on a clear morning. Bus, taxi, bike, or a hike from Changu Narayan.",
+    "details": [
+      "Bhaktapur Durbar Square, Nyatapola, and juju dhau curd",
+      "Dawn from the Nagarkot view tower — Langtang to Everest",
+      "Ridge hike to Changu Narayan or Dhulikhel"
+    ],
+    "image": "/images/nagarkot.jpg",
+    "portrait": "/images/nagarkot-portrait.jpg",
+    "pexels": "https://commons.wikimedia.org/wiki/Category:Nagarkot",
+    "aliases": [
+      "nagarkot",
+      "bhaktapur",
+      "changu narayan",
+      "valley rim",
+      "नगरकोट"
+    ]
   }
 ]

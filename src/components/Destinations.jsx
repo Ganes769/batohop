@@ -5,9 +5,9 @@ export default function Destinations({ destinations = [], hops = [], loading }) 
     <section className="places" id="places">
       <div className="section-head">
         <p className="section-label">Destinations</p>
-        <h2>Kathmandu, Pokhara, ABC, Lumbini</h2>
+        <h2>Valley, lakes, jungle, mountains &amp; plains</h2>
         <p className="section-copy">
-          Four places in Nepal. Open a hop between them for the full route,
+          Five places in Nepal. Open a hop between them for the full route,
           stops, cool facts, and sample fares.
         </p>
       </div>

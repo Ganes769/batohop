@@ -103,4 +103,28 @@ export const destinations = [
     pexels: 'https://www.pexels.com/photo/2034335/',
     aliases: ['lumbini', 'birthplace of buddha', 'buddha birthplace', 'mayadevi', 'bwa', 'bhairahawa'],
   },
+  {
+    id: 'chitwan',
+    index: '05',
+    name: 'Chitwan National Park',
+    shortName: 'Chitwan',
+    country: 'Nepal',
+    region: 'Bagmati · Sauraha',
+    nights: 2,
+    season: 'Oct — Mar · avoid monsoon floods',
+    price: 'From NPR 800',
+    tag: 'Rhino & jungle',
+    kicker: 'Jeep safari, canoe, and Tharu villages on the Terai',
+    summary:
+      'Chitwan is Nepal’s classic wildlife stop — one-horned rhinos, crocodiles, and if you are lucky, a Bengal tiger from a jeep or canoe. Most hops arrive from Kathmandu via Mugling and Narayangarh; Sauraha is the main lodge base on the Rapti river.',
+    details: [
+      'Half-day jeep safari in Chitwan National Park',
+      'Rapti river canoe at dawn for birds and gharial',
+      'Tharu cultural dance and village walk in the evening',
+    ],
+    image: '/images/chitwan.jpg',
+    portrait: '/images/chitwan-portrait.jpg',
+    pexels: 'https://www.pexels.com/photo/rhinoceros-in-the-wild-631317/',
+    aliases: ['chitwan', 'sauraha', 'chitwan national park', 'bharatpur safari', 'rhino safari'],
+  },
 ]

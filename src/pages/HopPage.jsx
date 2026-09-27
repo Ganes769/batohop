@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import Nav from '../components/Nav'
 import HopResults from '../components/HopResults'
 import Footer from '../components/Footer'
+import PrayerFlags from '../components/PrayerFlags'
 import { api } from '../api/client'
 import { useCatalog } from '../api/useCatalog'
 
@@ -36,6 +37,7 @@ export default function HopPage() {
     <div className="page hop-page">
       <header className="hop-top">
         <Nav />
+        <PrayerFlags variant="ribbon" className="hop-top-prayer-flags" />
       </header>
       <main className="content">
         {status === 'loading' ? (

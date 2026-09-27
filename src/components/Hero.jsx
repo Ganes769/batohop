@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import Nav from './Nav'
 import NepalFlag from './NepalFlag'
+import PrayerFlags from './PrayerFlags'
+import NepaliSlogans from './NepaliSlogans'
 
 export default function Hero({ destinations = [], hops = [] }) {
   return (
@@ -8,13 +10,7 @@ export default function Hero({ destinations = [], hops = [] }) {
       <div className="hero-backdrop" aria-hidden="true">
         <div className="hero-glow hero-glow-crimson" />
         <div className="hero-glow hero-glow-blue" />
-        <div className="hero-prayer-flags">
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-        </div>
+        <PrayerFlags variant="banner" className="hero-prayer-banner" />
         <svg className="hero-mountains" viewBox="0 0 1440 220" preserveAspectRatio="none">
           <path
             d="M0 220V140l120-70 90 48 110-88 130 62 100-54 160 96 120-58 140 72 170-110 150 82 120-44 230 112V220z"
@@ -34,6 +30,7 @@ export default function Hero({ destinations = [], hops = [] }) {
         <div className="hero-copy">
           <p className="hero-kicker">
             <NepalFlag className="hero-flag" />
+            <PrayerFlags variant="kicker" className="hero-kicker-flags" />
             <span>Nepal · road by road</span>
           </p>
           <h1>
@@ -42,10 +39,11 @@ export default function Hero({ destinations = [], hops = [] }) {
           </h1>
           <p className="lede">
             Baatohop is a travel guide for real Nepal routes — Kathmandu,
-            Pokhara, ABC, and Lumbini. Pick a hop, compare bus, jeep, flight, or
-            trek, convert USD or GBP to NPR, and read every stop with cool facts
-            and sample prices.
+            Pokhara, Chitwan, ABC, and Lumbini. Pick a hop, compare bus, jeep,
+            flight, or trek, convert USD or GBP to NPR, and read every stop with
+            cool facts and sample prices.
           </p>
+          <NepaliSlogans />
           <div className="hero-actions">
             <a className="btn btn-nepal" href="#plan">
               Search a hop
@@ -68,45 +66,6 @@ export default function Hero({ destinations = [], hops = [] }) {
               <dd>Oct – Nov</dd>
             </div>
           </dl>
-        </div>
-
-        <div className="hero-routes">
-          <p className="hero-routes-label">Start with a popular hop</p>
-          <div className="hero-route-grid">
-            {destinations.map((place) => {
-              const hop =
-                hops.find((item) => item.to === place.id) ??
-                hops.find((item) => item.from === place.id)
-              const body = (
-                <>
-                  <img
-                    src={place.portrait || place.image}
-                    alt={`${place.name}, Nepal`}
-                  />
-                  <div className="hero-route-body">
-                    <span className="hero-route-index">{place.index}</span>
-                    <h2>{place.shortName || place.name}</h2>
-                    <p>{place.region}</p>
-                    {hop ? <span className="hero-route-cta">Open hop →</span> : null}
-                  </div>
-                </>
-              )
-
-              if (hop) {
-                return (
-                  <Link key={place.id} className="hero-route-card" to={`/hops/${hop.id}`}>
-                    {body}
-                  </Link>
-                )
-              }
-
-              return (
-                <article key={place.id} className="hero-route-card">
-                  {body}
-                </article>
-              )
-            })}
-          </div>
         </div>
       </div>
     </header>

@@ -663,5 +663,1508 @@
       }
     ],
     "notes": "Sample fares for 2026, one way. The Terai is hot March–June — carry water, hat, and light cotton. Lumbini entry is separate from transport; monasteries are free once inside. Sunauli border (India) is 30 min south if you continue overland."
+  },
+  {
+    "id": "ktm-chitwan",
+    "from": "kathmandu",
+    "to": "chitwan",
+    "title": "Kathmandu → Chitwan",
+    "distance": "160 km · Prithvi Highway to Mugling, then south to Sauraha",
+    "duration": "5 – 7 hours by road · 20 min by air to Bharatpur",
+    "bestSeason": "October–March · rhinos visible year-round",
+    "summary": "The classic wildlife hop: drop out of the Kathmandu valley, turn south at Mugling, and reach the Terai lodges of Sauraha in one day. Highway for the full road; fly to Bharatpur if you want a jeep safari the same afternoon.",
+    "alongTheWay": [
+      {
+        "name": "Thankot ridge",
+        "when": "30 min out of Kathmandu",
+        "duration": "10–15 min pause",
+        "cost": "Free",
+        "do": "Last valley view, then descend toward the Trishuli.",
+        "detail": "Same opening stretch as the Pokhara and Lumbini hops — the valley ends quickly and the road warms up.",
+        "fact": "Thankot sits at 1,400 m — within an hour you will be near sea-level heat in the Chitwan basin."
+      },
+      {
+        "name": "Mugling junction",
+        "when": "Highway fork · ~3 hrs from KTM",
+        "duration": "15 min tea",
+        "cost": "NPR 50–150",
+        "do": "Turn south toward Narayangarh — not west to Pokhara.",
+        "detail": "The hop hinges here. Southbound traffic peels off toward Chitwan and the Terai.",
+        "fact": "Mugling is where trekkers heading west and safari-goers heading south split — the busiest fork in Nepal."
+      },
+      {
+        "name": "Kurintar riverside",
+        "when": "Optional detour · before Mugling turn",
+        "duration": "2–4 hrs if you raft",
+        "cost": "NPR 2,500–4,500 pp half-day raft",
+        "do": "Raft the Trishuli, then continue south by waiting jeep.",
+        "detail": "Only works with a private car or flexible schedule. Tourist buses to Chitwan will not wait.",
+        "fact": "Kurintar put-ins sit where the Trishuli cuts through a tight gorge — white water before the plains."
+      },
+      {
+        "name": "Narayangarh (Bharatpur)",
+        "when": "Terai hub · ~4.5 hrs from KTM",
+        "duration": "20–30 min",
+        "cost": "NPR 400–800 lunch",
+        "do": "Eat, ATM, then the short hop east to Sauraha.",
+        "detail": "Most coaches stop here. Chitwan lodges are 20–30 minutes further by taxi or lodge pickup.",
+        "fact": "Bharatpur airport (BHR) receives daily flights from Kathmandu — the fastest way to a rhino safari."
+      },
+      {
+        "name": "Sauraha & the Rapti",
+        "when": "Arrival",
+        "duration": "Check-in + evening walk",
+        "cost": "Park entry NPR 2,000+ · safari from NPR 3,500",
+        "do": "Check in, book tomorrow’s jeep safari, sunset by the river.",
+        "detail": "Sauraha is the main lodge strip. Book safaris through your hotel or a licensed operator — not touts at the bus stop.",
+        "fact": "Chitwan National Park was Nepal’s first national park (1973) and a UNESCO site since 1984."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Jeep safari",
+        "time": "Half day · dawn or dusk best",
+        "price": "NPR 3,500 – 6,500 pp shared",
+        "detail": "Rhino, deer, monkeys, and birds from an open jeep. Tiger sightings are luck — ask for the buffer-zone route if the park is crowded.",
+        "fact": "Roughly 600 one-horned rhinos live in Chitwan — one of the largest populations outside India."
+      },
+      {
+        "name": "Rapti canoe",
+        "time": "1–2 hours at dawn",
+        "price": "NPR 1,500 – 2,500 pp",
+        "detail": "Quiet paddle for kingfishers, egrets, and mugger crocodiles on the bank. Morning light is cooler and better for photos.",
+        "fact": "The gharial — a fish-eating crocodile with a long narrow snout — breeds in Chitwan and is critically endangered worldwide."
+      },
+      {
+        "name": "Tharu village & culture show",
+        "time": "Evening",
+        "price": "NPR 500 – 1,200 show · village walk often free",
+        "detail": "Traditional stick dance and a short village walk. Good the night you arrive if you came by bus.",
+        "fact": "The Tharu people have lived in the Terai for centuries — many villages resisted malaria when the hills were more populated."
+      },
+      {
+        "name": "Elephant breeding centre",
+        "time": "2–3 hours",
+        "price": "NPR 1,500 – 2,000 entry",
+        "detail": "Government centre near Sauraha. Ethical alternative to riding — observe calves and adults from the path.",
+        "fact": "Elephant rides are phased out in many lodges — the breeding centre focuses on conservation and research."
+      }
+    ],
+    "modes": [
+      {
+        "id": "tourist-bus-chitwan",
+        "name": "Tourist / express bus",
+        "tag": "Best value",
+        "duration": "5 – 7 hours",
+        "price": "NPR 800 – 1,500",
+        "priceUsd": "US$6 – 11",
+        "from": "Kalanki or Gongabu, Kathmandu",
+        "to": "Sauraha bus park or lodge pickup",
+        "detail": "Daily coaches via Mugling to Narayangarh, then branch to Sauraha. Some tickets include lodge pickup — ask when you buy. Leave early for an afternoon check-in.",
+        "includes": [
+          "Seat",
+          "One meal stop"
+        ],
+        "extras": [
+          "Lodge pickup NPR 0–500",
+          "Taxi Narayangarh–Sauraha NPR 1,200–2,000"
+        ],
+        "goodFor": "Budget travellers, first safari, seeing the Terai crossing"
+      },
+      {
+        "id": "private-car-chitwan",
+        "name": "Private car / jeep",
+        "tag": "Door to door",
+        "duration": "4.5 – 5.5 hours",
+        "price": "NPR 12,000 – 16,000 / car",
+        "priceUsd": "US$90 – 120",
+        "from": "Your hotel in Kathmandu",
+        "to": "Your lodge in Sauraha",
+        "detail": "Stop at Mugling for tea, Kurintar for rafting if you build in time, or Narayangarh for lunch. Best for families who want AC and pace control.",
+        "includes": [
+          "Driver",
+          "Fuel",
+          "Hotel to lodge"
+        ],
+        "extras": [
+          "Half-day Trishuli raft NPR 2,500–4,500 pp"
+        ],
+        "goodFor": "2–4 people, kids, Kurintar rafting combo"
+      },
+      {
+        "id": "flight-bhr",
+        "name": "Flight to Bharatpur",
+        "tag": "Fastest",
+        "duration": "20 min flying · 45 min to Sauraha",
+        "price": "NPR 3,500 – 8,000",
+        "priceUsd": "US$26 – 60",
+        "from": "Tribhuvan (KTM) domestic",
+        "to": "Bharatpur airport, then taxi or lodge pickup to Sauraha",
+        "detail": "Several flights daily in season. Less fog-prone than mountain routes. Lodge pickup can be pre-arranged — saves haggling at the airport.",
+        "includes": [
+          "15–20 kg bags typical"
+        ],
+        "extras": [
+          "Taxi BHR–Sauraha NPR 1,200–2,000",
+          "Taxi KTM hotel–airport NPR 800–1,500"
+        ],
+        "goodFor": "Short trips, same-day safari booking, avoiding long bus"
+      },
+      {
+        "id": "package-safari",
+        "name": "KTM–Chitwan safari package",
+        "tag": "All in",
+        "duration": "2 – 3 nights",
+        "price": "NPR 18,000 – 45,000 pp",
+        "priceUsd": "US$135 – 335",
+        "from": "Kathmandu",
+        "to": "Chitwan and back",
+        "detail": "Bus or flight, lodge, meals, one jeep safari, and canoe often bundled. Confirm what is extra: park fees, tips, drinks, and second safari.",
+        "includes": [
+          "Transport as quoted",
+          "Lodge",
+          "Usually 1 safari + canoe"
+        ],
+        "extras": [
+          "Extra safari NPR 3,500–6,500",
+          "Flight upgrade"
+        ],
+        "goodFor": "First-time visitors who want one price"
+      }
+    ],
+    "notes": "Sample 2026 fares, one way unless noted. Park fees and safari prices change — confirm at booking. Monsoon (Jun–Sep) means heat, leeches on walks, and occasional road delays."
+  },
+  {
+    "id": "chitwan-pkr",
+    "from": "chitwan",
+    "to": "pokhara",
+    "title": "Chitwan → Pokhara",
+    "distance": "150 km · East to Mugling, then west on Prithvi Highway",
+    "duration": "5 – 7 hours",
+    "bestSeason": "October–November · March–April",
+    "summary": "The classic triangle leg: leave the rhinos behind, cut back north through Narayangarh and Mugling, then climb the Prithvi Highway into Pokhara and the Annapurna views. One long day on the road — most travellers stop one night in Chitwan before this hop.",
+    "alongTheWay": [
+      {
+        "name": "Sauraha to Narayangarh",
+        "when": "Morning start",
+        "duration": "30 – 45 min drive",
+        "cost": "NPR 1,200 – 2,000 taxi · lodge pickup often included",
+        "do": "Checkout early, reach the highway junction before midday heat.",
+        "detail": "Your lodge can arrange the transfer. Shared jeeps exist but are slower — taxi is easier with luggage.",
+        "fact": "Sauraha sits on the Rapti river buffer zone — the drive to Narayangarh crosses flat rice fields that flood in monsoon."
+      },
+      {
+        "name": "Narayangarh lunch stop",
+        "when": "Mid-morning",
+        "duration": "30 min",
+        "cost": "NPR 400 – 800",
+        "do": "Eat, ATM if you need cash for Pokhara.",
+        "detail": "Last big town before the highway climb. Good dal bhat before the winding road west.",
+        "fact": "Narayangarh grew as a railway and highway hub — it is still the supply town for all of central Chitwan."
+      },
+      {
+        "name": "Mugling junction",
+        "when": "Highway fork · ~2 hrs from Sauraha",
+        "duration": "10 min tea",
+        "cost": "NPR 50 – 150",
+        "do": "Turn west toward Pokhara — not south or east.",
+        "detail": "Buses pause for fuel and tea. After this the road follows the Marsyangdi and Trishuli valleys west.",
+        "fact": "From Mugling west, every tourist bus to Pokhara follows the same river corridor trekkers know from the Annapurna approach."
+      },
+      {
+        "name": "Malekhu fish stop",
+        "when": "Mid-highway",
+        "duration": "30 min if the bus stops",
+        "cost": "NPR 400 – 800",
+        "do": "Optional lunch — river fish and chiya.",
+        "detail": "Same stop as the Kathmandu–Pokhara hop. Tourist coaches often break here.",
+        "fact": "Malekhu’s fried river fish has been a highway ritual since the Prithvi road opened — drivers know the best stalls."
+      },
+      {
+        "name": "Pokhara lakeside arrival",
+        "when": "Late afternoon",
+        "duration": "Check-in",
+        "cost": "Hotel NPR 2,000 – 8,000",
+        "do": "Drop bags, walk Phewa if light holds, sort ABC permits if you continue.",
+        "detail": "Most buses end at the tourist bus park — taxi to Lakeside NPR 400–700. You should arrive with enough light to find your hotel.",
+        "fact": "Pokhara sits at 822 m — after Chitwan’s heat, the lake air feels noticeably cooler."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Phewa Lake evening",
+        "time": "1–2 hours",
+        "price": "NPR 500 – 1,500 / hour boat",
+        "detail": "Gentle first evening after the long drive. Tal Barahi shrine at dusk if the light is good.",
+        "fact": "Phewa is Nepal’s second-largest lake — the water level drops in dry season, exposing new shoreline paths."
+      },
+      {
+        "name": "Sarangkot sunrise",
+        "time": "Next morning",
+        "price": "NPR 2,000 – 3,500 taxi return",
+        "detail": "Book a taxi the night before. Machhapuchhre and Annapurna from the ridge — worth it before ABC if you continue.",
+        "fact": "Sarangkot is also Nepal’s main paragliding launch — tandem flights run most clear mornings."
+      },
+      {
+        "name": "Gear & permit run",
+        "time": "Afternoon before ABC",
+        "price": "Permits NPR 3,000–5,000 · gear rental varies",
+        "detail": "Thamel-style shops on Lakeside. Get ACAP, TIMS, sleeping bag, and snacks before the jeep to Nayapul.",
+        "fact": "Pokhara issues most Annapurna permits — the ACAP check at Nayapul is faster if paperwork is done here."
+      }
+    ],
+    "modes": [
+      {
+        "id": "tourist-bus-cwpkr",
+        "name": "Tourist bus via Mugling",
+        "tag": "Best value",
+        "duration": "5 – 7 hours",
+        "price": "NPR 800 – 1,400",
+        "priceUsd": "US$6 – 10",
+        "from": "Sauraha (pickup) or Narayangarh bus park",
+        "to": "Pokhara tourist bus park / Lakeside",
+        "detail": "Some operators run through-services; otherwise taxi to Narayangarh and change to a westbound Pokhara bus. Ask your lodge the night before.",
+        "includes": [
+          "Seat"
+        ],
+        "extras": [
+          "Sauraha–Narayangarh transfer NPR 1,200–2,000",
+          "Taxi to Lakeside NPR 400–700"
+        ],
+        "goodFor": "Budget, standard triangle route"
+      },
+      {
+        "id": "private-car-cwpkr",
+        "name": "Private car / jeep",
+        "tag": "Door to door",
+        "duration": "4.5 – 6 hours",
+        "price": "NPR 11,000 – 15,000 / car",
+        "priceUsd": "US$82 – 112",
+        "from": "Your lodge in Sauraha",
+        "to": "Your hotel in Pokhara",
+        "detail": "One vehicle, stops when you want. Malekhu lunch, photos at Mugling, straight to Lakeside. Best after a early checkout.",
+        "includes": [
+          "Driver",
+          "Fuel",
+          "Lodge to hotel"
+        ],
+        "extras": [
+          "Manakamana detour +2–3 hrs if you have time"
+        ],
+        "goodFor": "2–4 people, luggage, families"
+      },
+      {
+        "id": "local-bus-cwpkr",
+        "name": "Local bus",
+        "tag": "Cheapest",
+        "duration": "6 – 8 hours",
+        "price": "NPR 500 – 900",
+        "priceUsd": "US$4 – 7",
+        "from": "Narayangarh or Mugling",
+        "to": "Pokhara bus park",
+        "detail": "Taxi to the highway first. Local buses are frequent Mugling–Pokhara but tighter and slower. Fine if you are not in a rush.",
+        "includes": [
+          "Seat"
+        ],
+        "extras": [
+          "Transfers at each end"
+        ],
+        "goodFor": "Very tight budgets"
+      }
+    ],
+    "notes": "Sample 2026 fares. The Chitwan–Pokhara hop is one long driving day — do not plan a same-night ABC trail start unless you pre-arranged a dawn jeep. Many travellers do KTM → Chitwan → Pokhara → ABC in sequence."
+  },
+  {
+    "id": "pkr-lumbini",
+    "from": "pokhara",
+    "to": "lumbini",
+    "title": "Pokhara → Lumbini",
+    "distance": "180 km · Siddhartha Highway via Tansen & Butwal",
+    "duration": "6 – 8 hours by road",
+    "bestSeason": "October–March · cooler Terai mornings",
+    "summary": "Cross the mid-hills on the Siddhartha Highway — Palpa ridges, Butwal on the Terai, then the Maya Devi garden. No mountain flight on this hop; it is a full day of winding road and flat heat at the end.",
+    "alongTheWay": [
+      {
+        "name": "Pokhara valley exit",
+        "when": "First hour",
+        "duration": "45 – 60 min",
+        "cost": "Included in bus or car",
+        "do": "Leave Lakeside early — 7:00 is ideal.",
+        "detail": "The road climbs out of the lake basin toward Kushma and the highway proper. Morning views back to Fishtail if the sky is clear.",
+        "fact": "The Siddhartha Highway is named for Prince Siddhartha — it links Pokhara to Lumbini and the Sunauli India border."
+      },
+      {
+        "name": "Kushma / Kaligandaki gorge",
+        "when": "Mid-morning",
+        "duration": "15 min photo stop",
+        "cost": "Free",
+        "do": "Look down into the Kaligandaki — one of the world’s deepest river gorges.",
+        "detail": "Optional pause if you are in a private car. Buses roll through without stopping.",
+        "fact": "The Kaligandaki river cuts between Dhaulagiri and Annapurna — sacred stones called shaligram are found in its bed."
+      },
+      {
+        "name": "Tansen (Palpa)",
+        "when": "Optional lunch · ~3 hrs from Pokhara",
+        "duration": "45 – 90 min if you stop",
+        "cost": "NPR 400 – 900 meal",
+        "do": "Walk Srinagar hill for Himalayan views, lunch in the old bazaar.",
+        "detail": "A worthwhile detour in a private car. Tourist buses usually skip it — you pass the turn above the ridge.",
+        "fact": "Tansen’s Palpa Durbar and Srinagar ridge offer Dhaulagiri and Annapurna views on clear days — a hidden hill town."
+      },
+      {
+        "name": "Butwal",
+        "when": "Terai gateway",
+        "duration": "15 min tea",
+        "cost": "NPR 50 – 150",
+        "do": "Fuel, toilet, last town before Bhairahawa and Lumbini.",
+        "detail": "The road flattens and warms. Lumbini is less than an hour west.",
+        "fact": "Butwal exploded as a trade hub once the Siddhartha Highway connected the hills to the Indian border."
+      },
+      {
+        "name": "Bhairahawa & Lumbini zone",
+        "when": "Arrival",
+        "duration": "Taxi 20 – 30 min from highway",
+        "cost": "NPR 800 – 1,500 taxi",
+        "do": "Check in near the monastic zone; Maya Devi at opening next morning.",
+        "detail": "Most buses stop at Lumbini bazaar or Bhairahawa — not at the temple gate. Plan a taxi or rickshaw for the last stretch.",
+        "fact": "Gautam Buddha Airport in Bhairahawa also serves pilgrims flying in from Kathmandu — road and air meet here."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Maya Devi Temple",
+        "time": "Dawn visit best",
+        "price": "Site entry NPR 500 – 700",
+        "detail": "Quieter at opening. The birth-marker stone and Ashoka pillar are the core of the site.",
+        "fact": "UNESCO listed Lumbini in 1997 — the master plan zones monasteries by country east and west of the canal."
+      },
+      {
+        "name": "Monastic zone circuit",
+        "time": "Half to full day",
+        "price": "Free inside the zone",
+        "detail": "Walk or cycle between Thai, Myanmar, Chinese, and German temples — each architecturally different.",
+        "fact": "More than twenty nations built temples here — a rare open-air museum of Buddhist architecture."
+      },
+      {
+        "name": "Sunauli border day trip",
+        "time": "Half day optional",
+        "price": "Taxi NPR 2,000 – 3,500 return",
+        "detail": "India crossing at Sunauli is 30 min south. Useful if you continue overland — carry passport and visa.",
+        "fact": "Sunauli is one of the busiest Nepal–India crossings — pilgrims and traders share the same Terai road."
+      }
+    ],
+    "modes": [
+      {
+        "id": "tourist-bus-pkrlmb",
+        "name": "Direct / express bus",
+        "tag": "Best value",
+        "duration": "6 – 8 hours",
+        "price": "NPR 1,000 – 1,800",
+        "priceUsd": "US$8 – 14",
+        "from": "Pokhara tourist bus park or Lakeside pickup",
+        "to": "Lumbini bazaar",
+        "detail": "Daily services on the Siddhartha Highway in season. One long day — winding hills then Terai heat. Reclining seats on better lines.",
+        "includes": [
+          "Seat",
+          "One stop"
+        ],
+        "extras": [
+          "Taxi to Maya Devi zone NPR 200–400"
+        ],
+        "goodFor": "Pilgrims, budget, Pokhara–Lumbini without backtracking via KTM"
+      },
+      {
+        "id": "private-car-pkrlmb",
+        "name": "Private car / jeep",
+        "tag": "Door to door",
+        "duration": "5.5 – 7 hours",
+        "price": "NPR 14,000 – 19,000 / car",
+        "priceUsd": "US$105 – 142",
+        "from": "Your hotel in Pokhara",
+        "to": "Your hotel in Lumbini",
+        "detail": "Stop at Tansen for lunch and views if you want. AC helps on the Terai approach. Best for 2–4 travellers with bags.",
+        "includes": [
+          "Driver",
+          "Fuel",
+          "Hotel to hotel"
+        ],
+        "extras": [
+          "Tansen stop +1 hr",
+          "Guide at Lumbini NPR 2,000–3,500"
+        ],
+        "goodFor": "Families, Tansen detour, pace control"
+      },
+      {
+        "id": "via-ktm-backtrack",
+        "name": "Via Kathmandu (two hops)",
+        "tag": "Alternative",
+        "duration": "2 days recommended",
+        "price": "Sum of KTM legs or flights",
+        "priceUsd": "Varies",
+        "from": "Pokhara",
+        "to": "Lumbini via Kathmandu",
+        "detail": "Some travellers fly PKR–KTM and KTM–Bhairahawa instead of the Siddhartha road. Costs more but skips the long hill highway. See Kathmandu → Lumbini and Kathmandu → Pokhara hops.",
+        "includes": [
+          "Two separate bookings"
+        ],
+        "extras": [
+          "Overnight KTM NPR 2,000–8,000"
+        ],
+        "goodFor": "Flight preference, monsoon when hill roads are slow"
+      }
+    ],
+    "notes": "Sample 2026 fares. Siddhartha Highway can be slow after rain — build buffer time. Combine with Pokhara → ABC only if you have days to spare; this is a full travel day."
+  },
+  {
+    "id": "chitwan-lumbini",
+    "from": "chitwan",
+    "to": "lumbini",
+    "title": "Chitwan → Lumbini",
+    "distance": "170 km · Terai highways via Butwal",
+    "duration": "4 – 6 hours",
+    "bestSeason": "October–March",
+    "summary": "Two UNESCO sites in one Terai stretch: leave the rhino lodges, cross the flat plains through Butwal, and reach the Buddha’s birthplace the same day. Shortest hop between jungle and pilgrimage on this map.",
+    "alongTheWay": [
+      {
+        "name": "Sauraha checkout",
+        "when": "Morning",
+        "duration": "30 min transfer to highway",
+        "cost": "Lodge pickup often NPR 0–500",
+        "do": "Leave after breakfast — aim on the road by 8:00.",
+        "detail": "Your lodge arranges the taxi or jeep to the Narayangarh–Butwal highway.",
+        "fact": "Many travellers pair Chitwan safari with Lumbini — two UNESCO sites in one Terai week."
+      },
+      {
+        "name": "Narayangarh bypass",
+        "when": "~45 min from Sauraha",
+        "duration": "10 min if passing through",
+        "cost": "Free",
+        "do": "Fuel and tea if the driver stops.",
+        "detail": "You may not enter town — through-traffic heads west on the Mahendra Highway.",
+        "fact": "The east–west Mahendra Highway links Kakarbhitta on the eastern border to the far west — Lumbini sits on its corridor."
+      },
+      {
+        "name": "Butwal junction",
+        "when": "Mid-route · ~3 hrs",
+        "duration": "15 min",
+        "cost": "NPR 50 – 150 tea · NPR 400–800 lunch",
+        "do": "Last proper town before Bhairahawa and Lumbini.",
+        "detail": "Flat, hot, busy. Good place for dal bhat and a toilet break.",
+        "fact": "Butwal is where hill roads from Tansen and Tansen meet the Terai grid — a natural rest stop."
+      },
+      {
+        "name": "Bhairahawa approach",
+        "when": "~45 min before Lumbini",
+        "duration": "20 min",
+        "cost": "Taxi NPR 800 – 1,500 to monastic zone",
+        "do": "Confirm whether your bus stops at bazaar or Bhairahawa airport road.",
+        "detail": "The sacred garden is west of town — not walkable with bags in midday heat.",
+        "fact": "Bhairahawa’s airport code BWA is how many international pilgrims first land for Lumbini."
+      },
+      {
+        "name": "Lumbini monastic zone",
+        "when": "Arrival",
+        "duration": "Half day minimum",
+        "cost": "Entry NPR 500 – 700",
+        "do": "Check in, rest from the heat, Maya Devi at dusk or dawn tomorrow.",
+        "detail": "Flat and contemplative — opposite energy to a jeep safari. Plan slow walks and shade.",
+        "fact": "The eternal peace flame has burned since 1986 — pilgrims light butter lamps beside it at evening."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Maya Devi garden",
+        "time": "1–2 hours",
+        "price": "Included in entry",
+        "detail": "The core pilgrimage site — quieter early morning before tour groups arrive.",
+        "fact": "The Ashoka pillar still marks the spot Emperor Ashoka identified in the 3rd century BCE."
+      },
+      {
+        "name": "World Peace Pagoda",
+        "time": "1–2 hours",
+        "price": "Free",
+        "detail": "Cycle or rickshaw from the canal. Calm views over the Terai after Chitwan’s jungle intensity.",
+        "fact": "Japanese donors funded this stupa as part of a global peace-pagoda network spanning eighty sites."
+      },
+      {
+        "name": "Crane sanctuary walk",
+        "time": "Dawn · 2 hours",
+        "price": "Guide NPR 1,500 – 2,500",
+        "detail": "Birdlife and wetlands — a gentler morning after early Chitwan safaris.",
+        "fact": "Sarus cranes nest in Lumbini’s fields — the tallest flying bird, revered in Buddhist imagery."
+      }
+    ],
+    "modes": [
+      {
+        "id": "tourist-bus-ctwlmb",
+        "name": "Express bus",
+        "tag": "Best value",
+        "duration": "4 – 6 hours",
+        "price": "NPR 700 – 1,200",
+        "priceUsd": "US$5 – 9",
+        "from": "Sauraha pickup or Narayangarh bus park",
+        "to": "Lumbini bazaar",
+        "detail": "Through-coaches on the Terai corridor in season. Lodge can book the night before. Mostly flat — easier than the hill highways.",
+        "includes": [
+          "Seat"
+        ],
+        "extras": [
+          "Sauraha transfer NPR 1,000–2,000",
+          "Rickshaw to zone NPR 150–300"
+        ],
+        "goodFor": "Safari + pilgrimage combo, budget Terai crossing"
+      },
+      {
+        "id": "private-car-ctwlmb",
+        "name": "Private car / jeep",
+        "tag": "Door to door",
+        "duration": "3.5 – 5 hours",
+        "price": "NPR 10,000 – 14,000 / car",
+        "priceUsd": "US$75 – 105",
+        "from": "Your lodge in Sauraha",
+        "to": "Your hotel in Lumbini",
+        "detail": "Straight Terai run with AC. Stop in Butwal for lunch. Fastest way to link two UNESCO sites in one day.",
+        "includes": [
+          "Driver",
+          "Fuel",
+          "Lodge to hotel"
+        ],
+        "extras": [
+          "Guide at Lumbini NPR 2,000–3,500"
+        ],
+        "goodFor": "2–4 people, same-day transfer, families"
+      },
+      {
+        "id": "via-bhairahawa-flight",
+        "name": "Taxi to Bharatpur + flight",
+        "tag": "Fastest",
+        "duration": "1 – 2 hours total if flights align",
+        "price": "NPR 5,000 – 12,000 combined",
+        "priceUsd": "US$38 – 90",
+        "from": "Sauraha",
+        "to": "Lumbini via BHR or BWA",
+        "detail": "Rarely worth it unless you hate road travel — taxi to Bharatpur airport, fly to Bhairahawa (if schedule exists), taxi to Lumbini. Often simpler to drive the Terai flat.",
+        "includes": [
+          "Varies by operator"
+        ],
+        "extras": [
+          "Schedule gaps may force overnight Bharatpur"
+        ],
+        "goodFor": "Mobility issues, extreme heat days"
+      }
+    ],
+    "notes": "Sample 2026 fares. Classic two-week loop: Kathmandu → Chitwan → Lumbini → Pokhara (or Chitwan → Lumbini → Pokhara via backtracking). Terai heat peaks March–June — travel early."
+  },
+  {
+    "id": "ktm-everest",
+    "from": "kathmandu",
+    "to": "everest",
+    "title": "Kathmandu → Everest Base Camp",
+    "distance": "Fly to Lukla (2,860 m) · then ~65 km walking each way to 5,364 m",
+    "duration": "12 – 14 days return typical · 4–5 hrs by heli tour",
+    "bestSeason": "October–November · March–May · avoid monsoon and deep winter",
+    "summary": "The world’s most famous trek. Fly into Lukla’s cliff-edge runway, then walk up the Dudh Koshi through Namche Bazaar, Tengboche, and Dingboche to the Khumbu glacier. Two acclimatisation days are not optional. No road touches this hop — everything above Lukla moves on foot, yak, or helicopter.",
+    "alongTheWay": [
+      {
+        "name": "Ramechhap (Manthali) airstrip",
+        "when": "Peak-season departure · 1:00–2:00 am pickup",
+        "duration": "4–5 hrs drive from Kathmandu",
+        "cost": "NPR 2,500–4,000 shared jeep · NPR 15,000–20,000 private",
+        "do": "Sleep in the jeep, then queue for the first Lukla flights at dawn.",
+        "detail": "In October–November and March–May most Lukla flights leave from Manthali, not Kathmandu, to ease TIA congestion. Some trekkers sleep in Manthali the night before instead of the midnight drive.",
+        "fact": "Manthali sits at only 470 m — the Lukla flight from here climbs almost 2,400 m in 20 minutes."
+      },
+      {
+        "name": "Lukla · Tenzing-Hillary Airport",
+        "when": "Day 1 · 2,860 m",
+        "duration": "Chiya, then 3–4 hrs walk to Phakding",
+        "cost": "Lodge NPR 500–1,500 · meals NPR 600–1,200",
+        "do": "Meet your porter, check bags, walk down to Phakding for the first night.",
+        "detail": "Do not sleep in Lukla unless weather strands you. The first day descends — a gentle start that helps the body.",
+        "fact": "Lukla’s runway is 527 m long on a 12 % slope with a mountain at one end and a 600 m drop at the other — routinely called the most dangerous airport in the world."
+      },
+      {
+        "name": "Namche Bazaar",
+        "when": "Nights 2–3 · 3,440 m",
+        "duration": "Two nights for acclimatisation",
+        "cost": "Lodge NPR 800–3,000 · meals NPR 800–1,500",
+        "do": "Saturday market, Sherpa Culture Museum, day hike to Everest View Hotel or Khumjung.",
+        "detail": "The Sherpa capital and the last place with ATMs, bakeries, and gear shops. Sagarmatha National Park entry is checked at Monjo just below.",
+        "fact": "The Everest View Hotel above Namche (3,880 m) was the highest hotel in the world when it opened in 1971 — guests once arrived by plane at Syangboche with oxygen in their rooms."
+      },
+      {
+        "name": "Tengboche monastery",
+        "when": "Night 4 · 3,867 m",
+        "duration": "5–6 hrs walk from Namche",
+        "cost": "Lodge NPR 800–2,500 · donation at the gompa",
+        "do": "Afternoon puja at 3:00 pm, Ama Dablam at sunset.",
+        "detail": "The spiritual centre of the Khumbu on a ridge with Everest, Lhotse, and Ama Dablam in one frame. Cold nights start here.",
+        "fact": "Tengboche hosts the Mani Rimdu festival every October–November — masked dances that draw Sherpas from every village in the Khumbu."
+      },
+      {
+        "name": "Dingboche & Lobuche",
+        "when": "Nights 5–8 · 4,410 m → 4,940 m",
+        "duration": "Second acclimatisation day at Dingboche",
+        "cost": "Lodge NPR 1,000–3,000 · meals climb to NPR 1,200–2,000",
+        "do": "Nangkartshang hike (5,083 m) from Dingboche, then Thukla pass memorials, then Lobuche.",
+        "detail": "This is where altitude bites. Sleep low, walk high, drink 3–4 litres. Thukla’s stone memorials to climbers are the sobering midpoint.",
+        "fact": "The Thukla pass memorials include cairns for Scott Fischer and Babu Chiri Sherpa — Babu once slept on Everest’s summit for 21 hours without oxygen."
+      },
+      {
+        "name": "Gorak Shep",
+        "when": "Night 9 · 5,164 m",
+        "duration": "3 hrs from Lobuche, then 2–3 hrs return to EBC",
+        "cost": "Lodge NPR 1,500–3,500 · dorm beds in peak season",
+        "do": "Drop bags, walk to base camp the same afternoon, Kala Patthar at dawn.",
+        "detail": "The last lodges on a frozen lakebed. Cold, crowded, and unforgettable. Nobody sleeps well here — that is normal.",
+        "fact": "Gorak Shep was the original Everest base camp for the 1952 Swiss expedition — the modern camp is an hour further up the glacier."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Everest Base Camp",
+        "time": "2–3 hours return from Gorak Shep · 5,364 m",
+        "price": "Included in the trek",
+        "detail": "Prayer flags, the Khumbu icefall, and in April–May the tents of summit expeditions. Everest itself hides behind Nuptse from here.",
+        "fact": "Base camp moves every year with the glacier — the Khumbu ice beneath it flows downhill about a metre a day."
+      },
+      {
+        "name": "Kala Patthar sunrise",
+        "time": "Dawn · 5,545 m · 2 hrs up",
+        "price": "Free — bring every layer you own",
+        "detail": "The only place on this trek where Everest’s summit is fully visible. Leave Gorak Shep at 4:30 am with a headtorch; it is often −15 °C.",
+        "fact": "Kala Patthar is where the Nepal government held a cabinet meeting in 2009 to highlight climate change — the highest cabinet meeting ever recorded."
+      },
+      {
+        "name": "Helicopter out",
+        "time": "15–20 min to Lukla · 45 min to Kathmandu",
+        "price": "US$500–900 pp shared to Lukla · US$1,800–3,500 charter to KTM",
+        "detail": "Weather window only. Many trekkers fly out from Gorak Shep or Pheriche to save three walking days. Book through your guide or the Pokhara/Kathmandu heli companies.",
+        "fact": "Heli traffic in the Khumbu now exceeds fixed-wing flights — over 40,000 helicopter movements a year, most in the two trekking seasons."
+      },
+      {
+        "name": "Khumjung & Khunde on the descent",
+        "time": "1 extra day",
+        "price": "Lodge + food as on the way up",
+        "detail": "Walk the quieter villages above Namche — Hillary’s school, the Khumjung gompa, and a rest before the Lukla flight.",
+        "fact": "Khumjung monastery keeps what it says is a yeti scalp in a locked box — Edmund Hillary flew it to Chicago in 1960 for testing."
+      }
+    ],
+    "modes": [
+      {
+        "id": "fly-lukla-trek",
+        "name": "Fly to Lukla, then trek",
+        "tag": "Classic",
+        "duration": "30 min flight + 11–13 days walking",
+        "price": "Flight NPR 24,000 – 31,000 pp one way (foreigner) + trail NPR 8,000 – 15,000 / day",
+        "priceUsd": "US$180 – 230 flight · US$60 – 110 / day",
+        "from": "Kathmandu (TIA) off-season · Ramechhap/Manthali in peak season",
+        "to": "Lukla, then on foot to EBC",
+        "detail": "Tara Air, Summit Air, and Sita Air fly Twin Otters and Dorniers at dawn only. Fog, wind, and cloud cancel often — build two buffer days at the end. Nepali citizens pay a much lower fare.",
+        "includes": [
+          "10 kg checked + 5 kg hand baggage",
+          "Seat if the weather allows"
+        ],
+        "extras": [
+          "Sagarmatha National Park entry NPR 3,000 (foreigner)",
+          "Khumbu Pasang Lhamu Rural Municipality fee NPR 3,000",
+          "Ramechhap jeep NPR 2,500–4,000 in peak season"
+        ],
+        "goodFor": "Everyone who has 14 days — this is the standard EBC shape"
+      },
+      {
+        "id": "guided-ebc-package",
+        "name": "Guided EBC package",
+        "tag": "All in",
+        "duration": "12 – 16 days Kathmandu to Kathmandu",
+        "price": "NPR 175,000 – 330,000 pp",
+        "priceUsd": "US$1,300 – 2,500",
+        "from": "Kathmandu hotel",
+        "to": "EBC and back to Kathmandu",
+        "detail": "Licensed guide, Lukla flights both ways, permits, lodges, and usually three meals a day on the trail. Porters are shared one per two trekkers. Ask whether Ramechhap transfers, hot showers, Wi-Fi, charging, and a Kathmandu hotel night are included. Sample 14-day shape: Lukla–Phakding–Namche (2)–Tengboche–Dingboche (2)–Lobuche–Gorak Shep/EBC–Kala Patthar–Pheriche–Namche–Lukla.",
+        "includes": [
+          "Guide + shared porter",
+          "Lukla flights both ways",
+          "Park + municipality permits",
+          "Lodges and trail meals"
+        ],
+        "extras": [
+          "Tips — budget US$150–250 per trekker for guide and porter",
+          "Travel insurance covering heli evacuation to 6,000 m (mandatory in practice)",
+          "Sleeping bag and down jacket rental NPR 300–500 / day"
+        ],
+        "goodFor": "First Himalayan trek, fixed dates, international visitors"
+      },
+      {
+        "id": "independent-ebc",
+        "name": "Independent trek + day rates",
+        "tag": "Flexible",
+        "duration": "You set the days · 12 minimum recommended",
+        "price": "NPR 8,000 – 15,000 / day on the trail",
+        "priceUsd": "US$60 – 110 / day",
+        "from": "Lukla",
+        "to": "Tea houses to EBC",
+        "detail": "Lodges NPR 500–3,000 if you eat there. Dal bhat rises from NPR 600 in Phakding to NPR 1,500+ at Gorak Shep; a hot shower or charging costs NPR 500–1,000 high up. The Khumbu still admits independent trekkers — check the current guide rule before you go. Carry all cash from Namche.",
+        "includes": [
+          "You book lodges as you go"
+        ],
+        "extras": [
+          "Guide NPR 3,500–5,000 / day · porter NPR 2,500–3,500 / day if hired in Lukla",
+          "Sagarmatha NP NPR 3,000 + Khumbu municipality NPR 3,000 (foreigners)"
+        ],
+        "goodFor": "Experienced trekkers, Nepali groups, open schedules"
+      },
+      {
+        "id": "jeep-salleri",
+        "name": "Jeep to Salleri / Thamdanda, then walk in",
+        "tag": "No flight",
+        "duration": "10 – 14 hrs jeep + 2–3 extra walking days each way",
+        "price": "NPR 3,000 – 5,000 shared jeep · NPR 35,000 – 50,000 private",
+        "priceUsd": "US$23 – 375",
+        "from": "Kathmandu (Chabahil / Koteshwor)",
+        "to": "Salleri or the Thamdanda / Surke road-end, then walk to Lukla and beyond",
+        "detail": "Skips Lukla’s weather roulette. The road now reaches Surke below Lukla in dry season. Adds days and a brutal drive but saves money and works when flights are cancelled for a week.",
+        "includes": [
+          "Jeep seat"
+        ],
+        "extras": [
+          "Extra lodge nights on the lower trail",
+          "Same permits as the flight route"
+        ],
+        "goodFor": "Budget, flight anxiety, extra acclimatisation, monsoon shoulder"
+      },
+      {
+        "id": "heli-tour",
+        "name": "Everest helicopter tour",
+        "tag": "Fastest",
+        "duration": "4 – 5 hours Kathmandu to Kathmandu",
+        "price": "US$1,100 – 1,500 pp shared · US$4,500 – 6,000 charter",
+        "priceUsd": "Quoted in USD",
+        "from": "Tribhuvan (KTM) domestic heli apron",
+        "to": "Kala Patthar landing + breakfast at Everest View Hotel, back to KTM",
+        "detail": "Dawn departure, refuel at Lukla, 10-minute landing at Kala Patthar (5,545 m) for photos, then breakfast at Syangboche. Weather cancels; rebook the next morning. No acclimatisation — you are exposed to altitude briefly and then descend.",
+        "includes": [
+          "Flight, Lukla refuel stop, Kala Patthar landing",
+          "Breakfast at Everest View Hotel"
+        ],
+        "extras": [
+          "Sagarmatha NP fee usually built into the price — confirm",
+          "Hotel–airport taxi NPR 800–1,500"
+        ],
+        "goodFor": "Half a day, elderly travellers, seeing Everest without walking"
+      }
+    ],
+    "notes": "Sample 2026 fares. Foreigner fares on Lukla flights are fixed in USD and rise yearly. Altitude sickness is the real risk — walk slowly above Namche, never climb more than 500 m of sleeping altitude per day, and descend at once if symptoms worsen. Insurance with helicopter evacuation is essential. Keep two spare days for Lukla weather before any international flight."
+  },
+  {
+    "id": "pkr-poonhill",
+    "from": "pokhara",
+    "to": "poonhill",
+    "title": "Pokhara → Poon Hill",
+    "distance": "Trailhead 1.5–3 hrs by road · then a 3–5 day walking loop to 3,210 m",
+    "duration": "3 – 5 days return",
+    "bestSeason": "October–November · March–April for rhododendrons · fine in winter with clear skies",
+    "summary": "Nepal’s most popular short trek and the classic first Himalayan walk. A jeep to Nayapul or Ulleri, one hard day of stone stairs, a night in Ghorepani, and a pre-dawn climb to the Poon Hill view tower for Dhaulagiri, Annapurna I, and Machhapuchhre in one sweep. Loop back through Tadapani and Ghandruk — or keep walking to ABC.",
+    "alongTheWay": [
+      {
+        "name": "Nayapul / Birethanti",
+        "when": "Classic trailhead · 1.5 hrs from Lakeside",
+        "duration": "Permit check + chiya",
+        "cost": "NPR 500–800 shared jeep · NPR 3,500–5,500 private",
+        "do": "ACAP and TIMS check, then walk the Bhurungdi Khola to Tikhedhunga.",
+        "detail": "Same gate as the ABC hop. The Poon Hill loop turns north here toward Ulleri instead of east toward Ghandruk.",
+        "fact": "Birethanti’s ACAP checkpoint logs more than 100,000 trekkers a year — most of them heading for Poon Hill."
+      },
+      {
+        "name": "Tikhedhunga & the Ulleri stairs",
+        "when": "Day 1 afternoon · 1,540 m → 1,960 m",
+        "duration": "1.5–2 hrs of stairs",
+        "cost": "Lodge NPR 500–1,500 · dal bhat NPR 500–800",
+        "do": "Climb the famous 3,300 steps to Ulleri — or jeep to Ulleri and skip them.",
+        "detail": "The stairs are the hardest hour of the trek and the reason people remember it. A dirt road now reaches Ulleri; shared jeeps from Pokhara stop here.",
+        "fact": "The Ulleri staircase has roughly 3,300 stone steps laid by Magar villagers — locals still carry loads up it every day."
+      },
+      {
+        "name": "Ghorepani",
+        "when": "Night before Poon Hill · 2,874 m",
+        "duration": "4–5 hrs from Ulleri through rhododendron forest",
+        "cost": "Lodge NPR 800–2,500 · meals NPR 700–1,200",
+        "do": "Warm up by the stove, set an alarm for 4:30 am, book a headtorch and hot tea.",
+        "detail": "A village built for the sunrise walk. Upper Ghorepani has the best lodges and its own mountain view if you cannot face the pre-dawn climb.",
+        "fact": "Ghorepani means “horse water” — the village grew as a watering stop for mule caravans on the old salt route to Mustang."
+      },
+      {
+        "name": "Tadapani",
+        "when": "Loop back · 2,630 m",
+        "duration": "5–6 hrs from Ghorepani over Deurali pass",
+        "cost": "Lodge NPR 700–2,000",
+        "do": "Ridge walk with Fishtail straight ahead, then drop into the forest to Tadapani.",
+        "detail": "The quietest day of the loop. Langur monkeys, rhododendron, and Annapurna South filling the sky at the lodge.",
+        "fact": "Tadapani’s name means “far water” — until a pipe was laid, villagers walked an hour each way to fetch it."
+      },
+      {
+        "name": "Ghandruk",
+        "when": "Last night · 1,940 m",
+        "duration": "3 hrs descent from Tadapani",
+        "cost": "Lodge + food NPR 3,000–6,000",
+        "do": "Gurung Museum, stone lanes, a last Machhapuchhre sunset.",
+        "detail": "From Ghandruk a jeep road runs back to Pokhara in 3 hours, or continue on foot toward Chhomrong and ABC.",
+        "fact": "Ghandruk supplied more Gurkha soldiers to the British and Indian armies than almost any other village in Nepal — pensions built its stone houses."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Poon Hill sunrise",
+        "time": "Dawn · 3,210 m · 45–60 min climb from Ghorepani",
+        "price": "View tower fee NPR 100–150 · tea at the top NPR 150–250",
+        "detail": "Dhaulagiri (8,167 m), Tukuche, Nilgiri, Annapurna I (8,091 m), Annapurna South, Hiunchuli, and Machhapuchhre. Go early — 200–400 people share the hill in October.",
+        "fact": "Poon Hill is the only spot in Nepal where two 8,000 m peaks — Dhaulagiri and Annapurna I — stand side by side across the deepest gorge on Earth."
+      },
+      {
+        "name": "Rhododendron forest",
+        "time": "Ghorepani–Tadapani day",
+        "price": "Free",
+        "detail": "Late March to mid-April the forest turns red, pink, and white. Nepal’s national flower — laligurans — at its best.",
+        "fact": "Some rhododendron trees on this ridge are over 20 m tall — the tallest of any rhododendron species in the world."
+      },
+      {
+        "name": "Extend to ABC",
+        "time": "+4–6 days",
+        "price": "NPR 6,000–12,000 / day",
+        "detail": "From Tadapani or Ghandruk walk to Chhomrong and join the sanctuary trail. Same permits, one longer trek.",
+        "fact": "Poon Hill plus ABC is the most-walked combination in the Annapurna region — about ten days for both."
+      },
+      {
+        "name": "Jhinu Danda hot springs",
+        "time": "Optional detour · 1–2 hrs",
+        "price": "Small pool fee",
+        "detail": "From Ghandruk drop to the Modi Khola for the natural pools, then jeep from New Bridge back to Pokhara.",
+        "fact": "The Jhinu pools sit at about 1,780 m beside the river — the perfect cure for Ulleri’s stairs."
+      }
+    ],
+    "modes": [
+      {
+        "id": "jeep-nayapul-poonhill",
+        "name": "Jeep to Nayapul, then walk the full loop",
+        "tag": "Classic",
+        "duration": "1.5 hrs drive + 4–5 days walking",
+        "price": "NPR 500 – 800 shared · NPR 3,500 – 5,500 private jeep",
+        "priceUsd": "US$4 – 42 to the trailhead",
+        "from": "Lakeside or Baglung bus park, Pokhara",
+        "to": "Nayapul, then on foot Ulleri → Ghorepani → Poon Hill → Tadapani → Ghandruk",
+        "detail": "The standard shape. Shared jeeps leave Baglung bus park from 6:00 am. Day 1 Nayapul–Ulleri or Tikhedhunga, Day 2 Ghorepani, Day 3 Poon Hill–Tadapani, Day 4 Ghandruk–Pokhara.",
+        "includes": [
+          "Road transfer only"
+        ],
+        "extras": [
+          "ACAP NPR 3,000 + TIMS NPR 2,000 (foreigners)",
+          "Jeep Ghandruk or Kimche → Pokhara NPR 600–1,000 shared"
+        ],
+        "goodFor": "Full loop, villages, first-time trekkers"
+      },
+      {
+        "id": "jeep-ulleri",
+        "name": "Jeep to Ulleri or Hile, shorter walk",
+        "tag": "3-day version",
+        "duration": "3 – 4 hrs drive + 3 days walking",
+        "price": "NPR 1,500 – 2,500 shared · NPR 10,000 – 15,000 private",
+        "priceUsd": "US$11 – 112",
+        "from": "Pokhara",
+        "to": "Ulleri (skips the stairs), then Ghorepani",
+        "detail": "The dirt road climbs above the Ulleri staircase. Sleep Ghorepani the first night, Poon Hill the next dawn, then down via Ghandruk or back the same way. Road closes in heavy monsoon.",
+        "includes": [
+          "High-clearance jeep"
+        ],
+        "extras": [
+          "Same permits",
+          "Porter from Ulleri NPR 2,000–2,800 / day"
+        ],
+        "goodFor": "Weekend from Pokhara, knees, limited days"
+      },
+      {
+        "id": "guided-poonhill",
+        "name": "Guided Poon Hill package",
+        "tag": "All in",
+        "duration": "3 – 5 days Pokhara to Pokhara",
+        "price": "NPR 35,000 – 65,000 pp",
+        "priceUsd": "US$260 – 490",
+        "from": "Pokhara (or Kathmandu if bundled)",
+        "to": "Poon Hill loop and back to Pokhara",
+        "detail": "Guide, permits, lodges, jeep transfers, and often meals. Cheapest guided Himalayan trek in Nepal. Confirm whether a porter and the view-tower fee are included.",
+        "includes": [
+          "Licensed guide",
+          "ACAP + TIMS handling",
+          "Lodges and transfers as quoted"
+        ],
+        "extras": [
+          "Porter NPR 2,000–2,800 / day",
+          "Tips US$30–60 per trekker"
+        ],
+        "goodFor": "Families, first trek, solo travellers who want company"
+      },
+      {
+        "id": "independent-poonhill",
+        "name": "Independent trek + day rates",
+        "tag": "Cheapest",
+        "duration": "You set the days · 3 minimum",
+        "price": "NPR 4,500 – 9,000 / day on the trail",
+        "priceUsd": "US$34 – 68 / day",
+        "from": "Pokhara",
+        "to": "Tea houses on the loop",
+        "detail": "Lodges NPR 500–2,000, dal bhat NPR 500–900, hot shower NPR 200–400. The trail is well marked and busy — the easiest trek in Nepal to walk alone. Check current guide rules for the Annapurna region; enforcement varies.",
+        "includes": [
+          "You book lodges as you go"
+        ],
+        "extras": [
+          "ACAP: NPR 3,000 foreigner · NPR 100 Nepali (sample)",
+          "TIMS: NPR 2,000 independent (foreigners)"
+        ],
+        "goodFor": "Budget, Nepali groups, flexible dates"
+      }
+    ],
+    "notes": "Sample 2026 fares. Poon Hill is under 3,300 m — altitude is rarely an issue, but Ulleri’s stairs and the pre-dawn climb are real. Bring a headtorch, warm layers for the summit wait (often 0–5 °C), and cash — no ATMs after Pokhara. Rhododendrons peak late March to mid-April."
+  },
+  {
+    "id": "pkr-mustang",
+    "from": "pokhara",
+    "to": "mustang",
+    "title": "Pokhara → Jomsom & Muktinath",
+    "distance": "160 km · Beni–Jomsom road up the Kali Gandaki gorge · or 20 min by air",
+    "duration": "20 min flight · 8 – 10 hours by jeep or bus",
+    "bestSeason": "October–November · March–May · in the Himalayan rain shadow, so June–August works too",
+    "summary": "Fly twenty minutes over the deepest gorge on Earth, or spend a day grinding up the Kali Gandaki road, and arrive in a windswept high desert that feels like Tibet. Jomsom is the hub; Marpha, Kagbeni, and the Muktinath temple at 3,710 m are the reasons to come. No restricted permit needed below Kagbeni.",
+    "alongTheWay": [
+      {
+        "name": "Beni",
+        "when": "~3 hrs from Pokhara · end of the tarmac",
+        "duration": "15–30 min",
+        "cost": "NPR 50–150 tea · NPR 400–800 lunch",
+        "do": "Change to a jeep if you came by bus; stock up on water.",
+        "detail": "The Kali Gandaki road begins here. Beyond Beni it is rough, dusty, and spectacular — high-clearance vehicles only.",
+        "fact": "Beni sits where the Myagdi Khola meets the Kali Gandaki — the town was the site of a major 2004 battle during Nepal’s civil war."
+      },
+      {
+        "name": "Tatopani hot springs",
+        "when": "Optional night · 1,190 m",
+        "duration": "1–2 hrs at the pools · or overnight",
+        "cost": "Pool NPR 150–300 · lodge NPR 800–2,000",
+        "do": "Soak in the riverside pools, sleep here if you split the drive.",
+        "detail": "The classic break on the two-day jeep version. Below the gorge, warm, and still subtropical — oranges grow here.",
+        "fact": "Tatopani literally means “hot water” — the springs were a rest stop on the Annapurna Circuit long before the road arrived."
+      },
+      {
+        "name": "Ghasa & the Kali Gandaki gorge",
+        "when": "Mid-route · 2,010 m",
+        "duration": "Photo stop",
+        "cost": "Free",
+        "do": "Look up: Dhaulagiri on one side, Annapurna I on the other.",
+        "detail": "The road threads the narrowest section of the gorge. Landslides close it for hours after rain — the driver knows.",
+        "fact": "Between Dhaulagiri (8,167 m) and Annapurna I (8,091 m) the Kali Gandaki gorge drops more than 5,500 m from peak to river — the deepest gorge on Earth by that measure."
+      },
+      {
+        "name": "Marpha",
+        "when": "~1 hr below Jomsom · 2,670 m",
+        "duration": "1 hr or a night",
+        "cost": "Lodge NPR 800–2,500 · apple brandy NPR 300–600 a bottle",
+        "do": "Whitewashed Thakali lanes, apple orchards, the gompa above town.",
+        "detail": "The prettiest village on the road. Many travellers sleep here instead of Jomsom.",
+        "fact": "Marpha’s apples came from a 1966 government horticulture farm — now the village is known across Nepal for dried apples, cider, and brandy."
+      },
+      {
+        "name": "Jomsom",
+        "when": "Hub · 2,720 m",
+        "duration": "Base for 1–3 nights",
+        "cost": "Lodge NPR 1,000–4,000 · meals NPR 600–1,200",
+        "do": "Airport, ACAP checkpost, jeeps to Muktinath and Kagbeni, Mustang Eco Museum.",
+        "detail": "Windy after 11:00 am every day — flights only run at dawn. Bank, ATMs, and the last real bakery before Upper Mustang.",
+        "fact": "Jomsom’s afternoon wind is a daily thermal — air rushing up the gorge from the lowlands, strong enough to sandblast your face and ground every plane."
+      },
+      {
+        "name": "Kagbeni",
+        "when": "45 min north of Jomsom · 2,800 m",
+        "duration": "Half day or a night",
+        "cost": "Jeep NPR 400–600 shared · lodge NPR 800–2,500",
+        "do": "Mud-brick alleys, the red gompa, and the checkpost gate to Upper Mustang.",
+        "detail": "Walk the alleys and the riverbank; Tiri village across the river is a quiet extra hour. Beyond the checkpost you need the US$500 restricted permit.",
+        "fact": "Kagbeni’s 15th-century Kag Chode monastery once controlled the salt trade — every caravan between Tibet and India paid tax here."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Muktinath temple",
+        "time": "Half day · 3,710 m · 1.5 hrs jeep from Jomsom",
+        "price": "Jeep NPR 600–900 shared · NPR 5,000–7,000 private · temple free",
+        "detail": "Walk from Ranipauwa through the 108 water spouts, the Jwala Mai eternal flame, and the Buddhist gompa. Hindus and Buddhists share the same courtyard.",
+        "fact": "Muktinath is one of the world’s highest major pilgrimage sites — Hindu pilgrims bathe under all 108 spouts of glacial water in a single freezing pass for moksha."
+      },
+      {
+        "name": "Kagbeni & Tiri",
+        "time": "Half day",
+        "price": "Free after the jeep",
+        "detail": "Mud walls, prayer wheels, and the Kali Gandaki riverbed where shaligram fossils are found.",
+        "fact": "Shaligram — black ammonite fossils sacred to Vishnu — are found only in the Kali Gandaki, proof that this desert was once an ocean floor."
+      },
+      {
+        "name": "Marpha apple walk",
+        "time": "2–3 hours",
+        "price": "Free · brandy tasting NPR 100–200",
+        "detail": "Walk or jeep from Jomsom, tour an orchard, eat apple pie at a Thakali kitchen, buy dried apple for the trail.",
+        "fact": "Marpha produces most of Nepal’s apple brandy — the distillery was set up with Swiss help in the 1970s."
+      },
+      {
+        "name": "Lubra & Jhong side valleys",
+        "time": "Day walk",
+        "price": "Free",
+        "detail": "Lubra is a Bön village, Jhong has a ruined fort — both quiet alternatives to the Muktinath crowds.",
+        "fact": "Lubra is one of the last villages in Nepal that follows Bön — the pre-Buddhist religion of Tibet."
+      }
+    ],
+    "modes": [
+      {
+        "id": "flight-jomsom",
+        "name": "Flight Pokhara → Jomsom",
+        "tag": "Fastest",
+        "duration": "20 minutes flying · dawn only",
+        "price": "NPR 15,000 – 19,000 pp (foreigner) · NPR 5,000 – 7,000 (Nepali)",
+        "priceUsd": "US$115 – 145",
+        "from": "Pokhara airport domestic",
+        "to": "Jomsom airport, then jeep to Kagbeni or Muktinath",
+        "detail": "Tara Air and Summit Air fly Twin Otters between 6:30 and 10:00 am — after that the gorge wind grounds everything. Sit on the left going up for Dhaulagiri. Cancellations are common; keep a road backup.",
+        "includes": [
+          "10 kg checked + 5 kg hand baggage"
+        ],
+        "extras": [
+          "ACAP NPR 3,000 (foreigner) — checked at Jomsom",
+          "Taxi Lakeside–airport NPR 500–800"
+        ],
+        "goodFor": "Short time, gorge views from the air, elderly pilgrims"
+      },
+      {
+        "id": "bus-jeep-jomsom",
+        "name": "Public bus or shared jeep",
+        "tag": "Cheapest",
+        "duration": "8 – 10 hours",
+        "price": "NPR 1,500 – 2,500 bus · NPR 2,500 – 3,500 shared jeep",
+        "priceUsd": "US$11 – 26",
+        "from": "Baglung bus park, Pokhara",
+        "to": "Jomsom bus stand",
+        "detail": "Buses leave 6:00–7:00 am and grind the whole way; shared jeeps are faster and change at Beni. Rough, dusty, spectacular. Bring a mask and a sense of humour.",
+        "includes": [
+          "Seat"
+        ],
+        "extras": [
+          "Jeep Jomsom–Muktinath NPR 600–900 shared"
+        ],
+        "goodFor": "Budget travellers, Nepali pilgrims, no-flight preference"
+      },
+      {
+        "id": "private-jeep-mustang",
+        "name": "Private jeep, two days via Tatopani",
+        "tag": "Door to door",
+        "duration": "2 days with a Tatopani or Marpha night",
+        "price": "NPR 30,000 – 45,000 / jeep one way",
+        "priceUsd": "US$225 – 340",
+        "from": "Your hotel in Pokhara",
+        "to": "Jomsom, Kagbeni, or straight to Muktinath",
+        "detail": "The comfortable version. Stop for hot springs, the gorge, Marpha lunch, and photos. The jeep can stay with you for Muktinath and Kagbeni days at NPR 8,000–12,000 / day.",
+        "includes": [
+          "Driver",
+          "Fuel",
+          "Up to 5–6 passengers with bags"
+        ],
+        "extras": [
+          "Tatopani lodge night NPR 800–2,000",
+          "Keep the jeep in Mustang NPR 8,000–12,000 / day"
+        ],
+        "goodFor": "Families, pilgrimage groups, photographers"
+      },
+      {
+        "id": "guided-mustang",
+        "name": "Guided Lower Mustang package",
+        "tag": "All in",
+        "duration": "4 – 7 days Pokhara to Pokhara",
+        "price": "NPR 60,000 – 120,000 pp",
+        "priceUsd": "US$450 – 900",
+        "from": "Pokhara",
+        "to": "Jomsom, Kagbeni, Muktinath, Marpha and back",
+        "detail": "Flight or jeep, guide, ACAP, lodges, and local jeeps. Some packages walk Jomsom–Kagbeni–Muktinath (2 days) and fly back. Upper Mustang (Lo Manthang) is a separate 10-day restricted-area trek at US$500 for the permit alone.",
+        "includes": [
+          "Transport as quoted",
+          "Guide",
+          "ACAP permit",
+          "Lodges"
+        ],
+        "extras": [
+          "Upper Mustang permit US$500 / 10 days if you go beyond Kagbeni",
+          "Meals often pay-as-you-go"
+        ],
+        "goodFor": "First visit, mixed pilgrimage and trekking, fixed dates"
+      }
+    ],
+    "notes": "Sample 2026 fares. Lower Mustang (Jomsom, Marpha, Kagbeni, Muktinath) needs only the ACAP permit; anything north of the Kagbeni checkpost is Upper Mustang and needs the restricted-area permit and a registered guide. Muktinath is 3,710 m — flying straight from Pokhara (822 m) and driving up the same day gives many people headaches. Sleep in Jomsom or Kagbeni first. Afternoon wind is fierce; carry sunglasses, a buff, and lip balm."
+  },
+  {
+    "id": "ktm-langtang",
+    "from": "kathmandu",
+    "to": "langtang",
+    "title": "Kathmandu → Langtang Valley",
+    "distance": "120 km road to Syabrubesi · then ~35 km walking up to Kyanjin Gompa (3,870 m)",
+    "duration": "7 – 10 days return",
+    "bestSeason": "October–November · March–May · clear cold winters possible",
+    "summary": "The Himalayan valley closest to Kathmandu and the third most-walked trek in Nepal. One long bus day north to Syabrubesi, then three days up a forested gorge to a rebuilt Tamang village and Kyanjin Gompa under Langtang Lirung. Quieter than Everest or Annapurna, with two summit ridges above 4,700 m and a cheese factory at the top.",
+    "alongTheWay": [
+      {
+        "name": "Trishuli Bazaar",
+        "when": "~3 hrs from Kathmandu",
+        "duration": "30 min lunch",
+        "cost": "NPR 300–700",
+        "do": "Dal bhat, toilet, stretch — the road gets rough after this.",
+        "detail": "The last flat town. From here the road climbs the Trishuli gorge in switchbacks toward Dhunche.",
+        "fact": "The Trishuli river here is the same one rafters ride on the Kathmandu–Pokhara highway — it rises in Tibet and crosses into Nepal at Rasuwagadhi."
+      },
+      {
+        "name": "Dhunche · Langtang National Park gate",
+        "when": "~6 hrs from Kathmandu · 1,960 m",
+        "duration": "Permit check 15–30 min",
+        "cost": "Langtang NP entry NPR 3,000 (foreigner) · NPR 100 (Nepali)",
+        "do": "Show or buy the park permit; the army post checks passports.",
+        "detail": "Rasuwa district headquarters and the alternative trailhead for Gosaikunda. Most Langtang Valley trekkers continue down to Syabrubesi.",
+        "fact": "Langtang was Nepal’s first Himalayan national park (1976) and the second oldest in the country after Chitwan."
+      },
+      {
+        "name": "Syabrubesi",
+        "when": "Night 1 · 1,460 m",
+        "duration": "Arrive late afternoon",
+        "cost": "Lodge NPR 500–1,500 · meals NPR 400–800",
+        "do": "Sleep, hire a porter if you need one, start walking at 7:00 am.",
+        "detail": "The trailhead. A hot spring sits by the river below town. The China border at Rasuwagadhi is 15 km north.",
+        "fact": "Syabrubesi is on the ancient Kyirong trade route — Tamang villagers here traded salt and wool with Tibet for centuries."
+      },
+      {
+        "name": "Lama Hotel",
+        "when": "Night 2 · 2,470 m",
+        "duration": "6–7 hrs through forest",
+        "cost": "Lodge NPR 500–1,500 · meals NPR 600–1,000",
+        "do": "Watch for langurs and red pandas; sleep in the forest clearing.",
+        "detail": "A cluster of lodges, not a village. The trail follows the Langtang Khola through bamboo and oak. Leeches in monsoon.",
+        "fact": "Langtang National Park is one of the best places in Nepal to see red pandas — the bamboo forest between Bamboo and Lama Hotel is their habitat."
+      },
+      {
+        "name": "Langtang village",
+        "when": "Night 3 · 3,430 m",
+        "duration": "5–6 hrs from Lama Hotel",
+        "cost": "Lodge NPR 800–2,500 · meals NPR 700–1,200",
+        "do": "Visit the memorial, stay in the rebuilt village, walk slowly — this is where altitude starts.",
+        "detail": "The 2015 earthquake avalanche buried the old village. New Langtang sits just above; the mani wall memorial lists 243 names.",
+        "fact": "The Langtang avalanche released the energy of about half the Hiroshima bomb — the air blast alone flattened forest across the valley."
+      },
+      {
+        "name": "Kyanjin Gompa",
+        "when": "Nights 4–5 · 3,870 m",
+        "duration": "3–4 hrs from Langtang",
+        "cost": "Lodge NPR 1,000–3,000 · meals NPR 800–1,500",
+        "do": "Monastery, cheese factory, then a rest day for the ridge climbs.",
+        "detail": "The last village. Glaciers on three sides and Langtang Lirung (7,227 m) straight above. Stay two nights.",
+        "fact": "Kyanjin’s cheese factory was built in 1955 by Swiss aid worker Werner Schulthess — the first yak cheese made in Nepal, still sold by the kilo."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Kyanjin Ri",
+        "time": "Half day · 4,773 m",
+        "price": "Free",
+        "detail": "2–3 hrs up from the village for Langtang Lirung, the Lirung glacier, and the whole valley. Start at dawn before cloud builds.",
+        "fact": "Kyanjin Ri’s prayer-flag summit sits directly across from Langtang Lirung — a 3,300 m wall of ice less than 5 km away."
+      },
+      {
+        "name": "Tserko Ri",
+        "time": "Full day · 4,984 m",
+        "price": "Free — pack lunch from the lodge",
+        "detail": "The bigger climb: 4–5 hrs up for Shishapangma (8,027 m) in Tibet, Langshisa Ri, and the Langtang glacier. Leave at 4:00 am.",
+        "fact": "From Tserko Ri you can see Shishapangma — the only 8,000 m peak entirely inside Tibet — over the border ridge."
+      },
+      {
+        "name": "Langshisa Kharka glacier walk",
+        "time": "Full day · 4,160 m",
+        "price": "Free",
+        "detail": "Flat valley walk east from Kyanjin to yak pastures and the glacier snout. Easier on the lungs than the ridges.",
+        "fact": "Langshisa Kharka is where Tilman and his 1949 expedition camped — the first Westerners allowed into Langtang."
+      },
+      {
+        "name": "Gosaikunda extension",
+        "time": "+3–4 days via Thulo Syabru and Lauribina pass",
+        "price": "Same park permit",
+        "detail": "Descend to Thulo Syabru, climb to the sacred lakes at 4,380 m, cross the Lauribina La (4,610 m), and walk out to Sundarijal at the edge of Kathmandu.",
+        "fact": "Gosaikunda draws tens of thousands of Hindu pilgrims every August full moon — Shiva is said to have created the lake with his trident."
+      }
+    ],
+    "modes": [
+      {
+        "id": "local-bus-syabrubesi",
+        "name": "Local bus to Syabrubesi",
+        "tag": "Cheapest",
+        "duration": "7 – 9 hours",
+        "price": "NPR 900 – 1,400",
+        "priceUsd": "US$7 – 11",
+        "from": "Machhapokhari (Balaju), Kathmandu",
+        "to": "Syabrubesi bus stand",
+        "detail": "Buses leave 6:30–8:00 am. Rough, crowded, and slow through the Trishuli gorge switchbacks. Buy tickets the day before in season; sit on the right for views.",
+        "includes": [
+          "Seat"
+        ],
+        "extras": [
+          "Langtang NP permit NPR 3,000 at Dhunche or Kathmandu",
+          "TIMS NPR 2,000 (foreigners)"
+        ],
+        "goodFor": "Tight budgets, the real road"
+      },
+      {
+        "id": "shared-jeep-syabrubesi",
+        "name": "Shared jeep",
+        "tag": "Best value",
+        "duration": "6 – 7 hours",
+        "price": "NPR 1,800 – 2,500",
+        "priceUsd": "US$14 – 19",
+        "from": "Machhapokhari or Thamel pickup",
+        "to": "Syabrubesi",
+        "detail": "Faster and less crowded than the bus. 8–10 seats; books out in October. Ask your Thamel agency or the Machhapokhari counters.",
+        "includes": [
+          "Seat"
+        ],
+        "extras": [
+          "Same permits"
+        ],
+        "goodFor": "Most independent trekkers"
+      },
+      {
+        "id": "private-jeep-syabrubesi",
+        "name": "Private jeep",
+        "tag": "Door to door",
+        "duration": "6 – 7 hours",
+        "price": "NPR 25,000 – 32,000 / jeep one way",
+        "priceUsd": "US$190 – 240",
+        "from": "Your hotel in Kathmandu",
+        "to": "Syabrubesi trailhead",
+        "detail": "Leave at 6:00 am, stop where you like. Worth splitting between 4–6 trekkers. Book the return for your exit day.",
+        "includes": [
+          "Driver",
+          "Fuel",
+          "Hotel to trailhead"
+        ],
+        "extras": [
+          "Return jeep same price"
+        ],
+        "goodFor": "Groups, families, bad-road aversion"
+      },
+      {
+        "id": "guided-langtang",
+        "name": "Guided Langtang package",
+        "tag": "All in",
+        "duration": "8 – 10 days Kathmandu to Kathmandu",
+        "price": "NPR 65,000 – 130,000 pp",
+        "priceUsd": "US$490 – 980",
+        "from": "Kathmandu hotel",
+        "to": "Kyanjin Gompa and back",
+        "detail": "Guide, permits, transport, lodges, and usually meals. A licensed guide is required inside Langtang National Park under the 2023 rule — check enforcement, but plan for one. Gosaikunda add-on usually +US$200–300.",
+        "includes": [
+          "Licensed guide",
+          "Park permit + TIMS",
+          "Jeep or bus both ways",
+          "Lodges"
+        ],
+        "extras": [
+          "Porter NPR 2,200–3,000 / day",
+          "Tips US$80–150 per trekker"
+        ],
+        "goodFor": "First trek, solo travellers, fixed dates"
+      },
+      {
+        "id": "independent-langtang",
+        "name": "Independent day rates on the trail",
+        "tag": "Flexible",
+        "duration": "You set the days · 6 walking days minimum",
+        "price": "NPR 5,500 – 10,000 / day",
+        "priceUsd": "US$41 – 75 / day",
+        "from": "Syabrubesi",
+        "to": "Tea houses to Kyanjin Gompa",
+        "detail": "Lodges NPR 500–3,000, dal bhat NPR 500–1,200, hot shower NPR 300–600. Cash only after Syabrubesi. Kyanjin has bakeries and yak cheese — budget a little extra for both.",
+        "includes": [
+          "You book lodges as you go"
+        ],
+        "extras": [
+          "Guide NPR 3,000–4,500 / day if hired",
+          "Langtang NP NPR 3,000 + TIMS NPR 2,000 (foreigners)"
+        ],
+        "goodFor": "Experienced walkers, Nepali groups"
+      }
+    ],
+    "notes": "Sample 2026 fares. Kyanjin Gompa is 3,870 m and the ridges near 5,000 m — take a rest day at Kyanjin before climbing. The Syabrubesi road is landslide-prone in monsoon and closes for hours after heavy rain. Spend your money in Langtang village — the rebuilt lodges are the valley’s recovery."
+  },
+  {
+    "id": "ktm-nagarkot",
+    "from": "kathmandu",
+    "to": "nagarkot",
+    "title": "Kathmandu → Nagarkot",
+    "distance": "32 km · east through Bhaktapur, then a 2,175 m ridge road",
+    "duration": "1.5 – 2.5 hours by road · 3–4 hrs if you hike from Changu Narayan",
+    "bestSeason": "October–December · February–April · clearest mountain mornings after monsoon",
+    "summary": "The easiest famous hop in Nepal and the classic first or last night of a trip. Leave the city, spend the afternoon in Bhaktapur’s medieval squares, climb to the valley rim for a sunset, and wake up to a Himalayan panorama from Langtang to — on a very clear day — a tiny tip of Everest. Bus, taxi, bicycle, or on foot.",
+    "alongTheWay": [
+      {
+        "name": "Thimi (Madhyapur)",
+        "when": "20 min out of Kathmandu",
+        "duration": "20–30 min if you stop",
+        "cost": "Free · pottery from NPR 200",
+        "do": "Watch potters throw clay in the squares; buy a small piece.",
+        "detail": "A Newari pottery town most travellers pass without noticing. Worth a stop in a private car.",
+        "fact": "Thimi hosts the Bisket Jatra ‘sindoor’ festival every April — 32 palanquins and clouds of orange powder in one square."
+      },
+      {
+        "name": "Bhaktapur Durbar Square",
+        "when": "The afternoon stop · 1,400 m",
+        "duration": "2–4 hours",
+        "cost": "Entry NPR 1,800 (foreigner) · NPR 500 (SAARC) · free for Nepalis",
+        "do": "55-Window Palace, Nyatapola temple, Taumadhi and Dattatreya squares, juju dhau.",
+        "detail": "The best-preserved of the three valley kingdoms. Give it real time — the lanes between the squares are the point. Your ticket is valid for repeat visits if you show it.",
+        "fact": "Nyatapola, Nepal’s tallest pagoda at 30 m, was built in 1702 and survived both the 1934 and 2015 earthquakes almost untouched."
+      },
+      {
+        "name": "Changu Narayan",
+        "when": "Optional detour or hike start · 1,540 m",
+        "duration": "1 hr visit · 2.5–3 hrs hike to Nagarkot",
+        "cost": "Entry NPR 300 (foreigner)",
+        "do": "See the oldest temple in the valley, then walk the ridge trail to Nagarkot.",
+        "detail": "A UNESCO site on a hilltop north of Bhaktapur. The trail to Nagarkot climbs through pine forest and villages — clear, mostly uphill, no guide needed.",
+        "fact": "Changu Narayan has a stone inscription from AD 464 — the oldest dated inscription in Nepal."
+      },
+      {
+        "name": "Telkot & the ridge road",
+        "when": "Last 30 min",
+        "duration": "Switchbacks",
+        "cost": "Included",
+        "do": "Look back over the whole valley as the road climbs.",
+        "detail": "Buses from Bhaktapur’s Kamalbinayak stop labour up here. Taxis take 30–40 minutes from Bhaktapur.",
+        "fact": "Nagarkot was a summer retreat for Kathmandu’s royal court — the name means ‘city fort’, from a lookout that guarded the valley’s eastern edge."
+      },
+      {
+        "name": "Nagarkot bazaar & hotels",
+        "when": "Arrival · 2,175 m",
+        "duration": "Check-in before sunset",
+        "cost": "Hotel NPR 2,500–15,000 · budget lodges NPR 1,200–2,500",
+        "do": "Drop bags, walk to the sunset point, set an alarm for 5:30 am.",
+        "detail": "Hotels line the ridge for 2 km. The view tower is 4 km south — a taxi or an early walk. Cold at night even in October.",
+        "fact": "On the clearest winter mornings Nagarkot shows eight of Nepal’s fourteen Himalayan ranges — including a tiny Everest on the far eastern horizon."
+      }
+    ],
+    "atDestination": [
+      {
+        "name": "Sunrise from the view tower",
+        "time": "Dawn · 2,195 m · 4 km from the bazaar",
+        "price": "Taxi NPR 500–1,000 · walk free",
+        "detail": "Langtang, Ganesh Himal, Manaslu, and on a clear morning the Everest range far to the east. Arrive 20 minutes before sunrise; cloud fills in fast.",
+        "fact": "The view tower sits on the old Nepal Army lookout — the panorama covers roughly 250 km of Himalaya from Annapurna to Everest."
+      },
+      {
+        "name": "Nagarkot → Changu Narayan hike",
+        "time": "3 hours downhill",
+        "price": "Free · Changu entry NPR 300",
+        "detail": "The reverse of the classic hike — walk down through villages to the temple, then bus or taxi to Bhaktapur. The best way to leave.",
+        "fact": "The ridge trail passes Tamang and Newari villages that still terrace millet and mustard on the valley rim."
+      },
+      {
+        "name": "Nagarkot → Dhulikhel ridge walk",
+        "time": "4–5 hours",
+        "price": "Free · bus Dhulikhel–KTM NPR 100–150",
+        "detail": "Longer and quieter — follow the ridge east through Rohini Bhanjyang to Dhulikhel, then bus back to Kathmandu on the Araniko Highway.",
+        "fact": "Dhulikhel marks the start of the Araniko Highway to Tibet — the ridge you walk was the old Kathmandu–Lhasa trade path."
+      },
+      {
+        "name": "Back to Bhaktapur for juju dhau",
+        "time": "Afternoon",
+        "price": "NPR 100–200 a pot",
+        "detail": "‘King curd’ in a clay pot, then Pottery Square before the bus back to the city.",
+        "fact": "Juju dhau is set in unglazed clay pots that wick moisture out — the same technique Bhaktapur has used for 500 years."
+      }
+    ],
+    "modes": [
+      {
+        "id": "local-bus-nagarkot",
+        "name": "Local bus via Bhaktapur",
+        "tag": "Cheapest",
+        "duration": "2.5 – 3 hours with the change",
+        "price": "NPR 60 – 100 Kathmandu–Bhaktapur + NPR 100 – 150 Bhaktapur–Nagarkot",
+        "priceUsd": "US$1 – 2",
+        "from": "Ratna Park or Bagbazar, Kathmandu",
+        "to": "Kamalbinayak (Bhaktapur), then Nagarkot bazaar",
+        "detail": "Buses to Bhaktapur run every few minutes. From Kamalbinayak, Nagarkot buses leave every 30–60 min until about 5:00 pm. Slow, cheap, and easy.",
+        "includes": [
+          "Seat (sometimes standing)"
+        ],
+        "extras": [
+          "Bhaktapur entry NPR 1,800 if you walk through the squares"
+        ],
+        "goodFor": "Budget travellers, stopping in Bhaktapur"
+      },
+      {
+        "id": "taxi-nagarkot",
+        "name": "Taxi",
+        "tag": "Best value",
+        "duration": "1.5 – 2 hours",
+        "price": "NPR 2,500 – 4,000 one way · NPR 5,000 – 7,000 return with sunrise wait",
+        "priceUsd": "US$19 – 52",
+        "from": "Your hotel in Kathmandu",
+        "to": "Your hotel in Nagarkot",
+        "detail": "Agree the price before you leave. Add NPR 500–1,000 for a Bhaktapur stop of an hour or two. Ride-hailing apps work to Bhaktapur but rarely up the ridge.",
+        "includes": [
+          "Door to door"
+        ],
+        "extras": [
+          "Bhaktapur stop NPR 500–1,000",
+          "View tower run at dawn NPR 500–1,000"
+        ],
+        "goodFor": "Couples, luggage, arriving before sunset"
+      },
+      {
+        "id": "private-car-nagarkot",
+        "name": "Private car day tour with Bhaktapur",
+        "tag": "Door to door",
+        "duration": "Full day or overnight",
+        "price": "NPR 6,000 – 9,000 / car",
+        "priceUsd": "US$45 – 68",
+        "from": "Kathmandu hotel",
+        "to": "Bhaktapur, Changu Narayan, Nagarkot and back",
+        "detail": "Driver waits at each stop. Overnight versions collect you after sunrise the next morning. Add a guide for Bhaktapur at NPR 2,000–3,500.",
+        "includes": [
+          "Driver",
+          "Fuel",
+          "Waiting time"
+        ],
+        "extras": [
+          "Guide NPR 2,000–3,500",
+          "Entry fees not included"
+        ],
+        "goodFor": "Families, first day in Nepal, jet-lag recovery"
+      },
+      {
+        "id": "hike-bike-nagarkot",
+        "name": "Hike from Changu Narayan or mountain bike",
+        "tag": "Active",
+        "duration": "3 hrs hiking · 3–4 hrs cycling from Kathmandu",
+        "price": "Free on foot · bike rental NPR 1,500 – 3,000 / day",
+        "priceUsd": "US$0 – 23",
+        "from": "Changu Narayan (bus/taxi from Bhaktapur) or Thamel bike shops",
+        "to": "Nagarkot ridge",
+        "detail": "The hike is the classic: taxi to Changu Narayan (NPR 800–1,200 from Bhaktapur), then a clear ridge trail up. Cyclists take the Bhaktapur road and the 20 km climb; the descent to Sankhu or Dhulikhel the next day is the reward.",
+        "includes": [
+          "Your legs"
+        ],
+        "extras": [
+          "Changu Narayan entry NPR 300",
+          "Bike guide NPR 3,000–5,000 / day"
+        ],
+        "goodFor": "Acclimatising before a trek, cyclists, a Nepal day walk with no permits"
+      }
+    ],
+    "notes": "Sample 2026 fares. Nagarkot is about weather: October–December and February–April give the clearest mornings; monsoon (June–September) hides the mountains almost every day. Nights on the ridge are 5–10 °C colder than Kathmandu. Bhaktapur’s NPR 1,800 entry ticket can be extended free for the length of your visa if you ask at the counter with your passport."
   }
 ]

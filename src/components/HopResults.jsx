@@ -14,7 +14,7 @@ export default function HopResults({ hop, destinations = [] }) {
           <p className="section-label">Search a hop</p>
           <h2>Pick two different places in Nepal</h2>
           <p>
-            Kathmandu → Pokhara, Pokhara → ABC, Kathmandu → Lumbini, and more
+            Kathmandu → Pokhara, Chitwan → Lumbini, Pokhara → ABC, and more
             are live — stops, cool facts, and every fare in one guide.
           </p>
         </div>

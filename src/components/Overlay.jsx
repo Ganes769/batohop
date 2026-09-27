@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Hero from './Hero'
 import HopSearch from './HopSearch'
+import PrayerFlags from './PrayerFlags'
 
 export default function Overlay({
   destinations = [],
@@ -14,6 +15,8 @@ export default function Overlay({
   return (
     <>
       <Hero destinations={destinations} hops={hops} />
+
+      <PrayerFlags variant="divider" className="planner-prayer-flags" />
 
       <section className="planner" id="plan">
         <p className="section-label">Plan a hop</p>
