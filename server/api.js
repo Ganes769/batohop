@@ -1,49 +1,44 @@
 import { findHop, getDestinations, getHopById, getHops } from './catalog.js'
 import { getRates } from './rates.js'
 
-function send(res, status, body) {
-  res.statusCode = status
-  res.setHeader('Content-Type', 'application/json; charset=utf-8')
-  res.setHeader('Cache-Control', 'no-store')
-  res.end(JSON.stringify(body))
+export const JSON_HEADERS = {
+  'Content-Type': 'application/json; charset=utf-8',
+  'Cache-Control': 'no-store',
 }
 
-export function apiMiddleware(req, res, next) {
-  const host = req.headers.host || 'localhost'
-  const url = new URL(req.url, `http://${host}`)
-  if (!url.pathname.startsWith('/api/')) {
-    next()
-    return
+/**
+ * Route an API request. Shared by the Vite dev middleware and the Netlify
+ * function so both environments serve identical responses.
+ *
+ * @param {URL} url
+ * @param {string} method
+ * @returns {Promise<{ status: number, body: unknown }>}
+ */
+export async function handleApi(url, method = 'GET') {
+  if (method !== 'GET') {
+    return { status: 405, body: { error: 'Method not allowed' } }
   }
 
-  if (req.method !== 'GET') {
-    send(res, 405, { error: 'Method not allowed' })
-    return
-  }
-
-  const path = url.pathname.replace(/\/$/, '')
+  const path = normalisePath(url.pathname)
 
   if (path === '/api/rates') {
-    getRates()
-      .then((rates) => send(res, 200, rates))
-      .catch(() => send(res, 503, { error: 'Rates unavailable' }))
-    return
+    try {
+      return { status: 200, body: await getRates() }
+    } catch {
+      return { status: 503, body: { error: 'Rates unavailable' } }
+    }
   }
 
   if (path === '/api/destinations') {
-    send(res, 200, getDestinations())
-    return
+    return { status: 200, body: getDestinations() }
   }
 
   const destinationMatch = path.match(/^\/api\/destinations\/([^/]+)$/)
   if (destinationMatch) {
-    const item = getDestinations().find((place) => place.id === destinationMatch[1])
-    if (!item) {
-      send(res, 404, { error: 'Destination not found' })
-      return
-    }
-    send(res, 200, item)
-    return
+    const id = decodeURIComponent(destinationMatch[1])
+    const item = getDestinations().find((place) => place.id === id)
+    if (!item) return { status: 404, body: { error: 'Destination not found' } }
+    return { status: 200, body: item }
   }
 
   if (path === '/api/hops') {
@@ -51,27 +46,54 @@ export function apiMiddleware(req, res, next) {
     const to = url.searchParams.get('to')
     if (from || to) {
       const hop = findHop(from, to)
-      if (!hop) {
-        send(res, 404, { error: 'Hop not found' })
-        return
-      }
-      send(res, 200, hop)
-      return
+      if (!hop) return { status: 404, body: { error: 'Hop not found' } }
+      return { status: 200, body: hop }
     }
-    send(res, 200, getHops())
-    return
+    return { status: 200, body: getHops() }
   }
 
   const hopMatch = path.match(/^\/api\/hops\/([^/]+)$/)
   if (hopMatch) {
     const hop = getHopById(decodeURIComponent(hopMatch[1]))
-    if (!hop) {
-      send(res, 404, { error: 'Hop not found' })
-      return
-    }
-    send(res, 200, hop)
+    if (!hop) return { status: 404, body: { error: 'Hop not found' } }
+    return { status: 200, body: hop }
+  }
+
+  return { status: 404, body: { error: 'Not found' } }
+}
+
+export function isApiPath(pathname) {
+  return normalisePath(pathname).startsWith('/api/')
+}
+
+// Accept `/api/...` directly and `/.netlify/functions/api/...` when the
+// function is invoked via its internal URL; strip trailing slashes.
+function normalisePath(pathname) {
+  let path = pathname.replace(/\/+$/, '')
+  const internal = '/.netlify/functions/api'
+  if (path === internal || path.startsWith(`${internal}/`)) {
+    path = `/api${path.slice(internal.length)}`
+  }
+  return path
+}
+
+function send(res, status, body) {
+  res.statusCode = status
+  for (const [key, value] of Object.entries(JSON_HEADERS)) {
+    res.setHeader(key, value)
+  }
+  res.end(JSON.stringify(body))
+}
+
+export function apiMiddleware(req, res, next) {
+  const host = req.headers.host || 'localhost'
+  const url = new URL(req.url, `http://${host}`)
+  if (!isApiPath(url.pathname)) {
+    next()
     return
   }
 
-  send(res, 404, { error: 'Not found' })
+  handleApi(url, req.method)
+    .then(({ status, body }) => send(res, status, body))
+    .catch(() => send(res, 500, { error: 'Internal error' }))
 }

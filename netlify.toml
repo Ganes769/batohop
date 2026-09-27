@@ -1,0 +1,23 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  node_bundler = "esbuild"
+
+# API requests go to the serverless function (see netlify/functions/api.mjs).
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# Everything else is the React SPA — deep links like /hops/ktm-everest must
+# serve index.html so react-router can take over.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

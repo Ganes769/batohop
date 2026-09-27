@@ -1,24 +1,12 @@
-import { readFileSync } from 'node:fs'
-import { dirname, join } from 'node:path'
-import { fileURLToPath } from 'node:url'
-
-const dir = dirname(fileURLToPath(import.meta.url))
-
-function load() {
-  return {
-    destinations: JSON.parse(
-      readFileSync(join(dir, 'data/destinations.json'), 'utf8'),
-    ),
-    hops: JSON.parse(readFileSync(join(dir, 'data/hops.json'), 'utf8')),
-  }
-}
+import destinations from './data/destinations.json' with { type: 'json' }
+import hops from './data/hops.json' with { type: 'json' }
 
 export function getDestinations() {
-  return load().destinations
+  return destinations
 }
 
 export function getHops() {
-  return load().hops
+  return hops
 }
 
 export function placeName(id) {
